@@ -184,6 +184,30 @@ a {
   margin-left: 465px;
 }
 
+/* ========== RESEARCHER TOOLS ============ */
+.word {
+  width: 158px;
+  height: 113px;
+
+  margin-top: -600px;
+  margin-left: 20px;
+}
+
+.doc {
+  margin-left: 230px;
+}
+
+.pages {
+  width: 100px;
+  height: auto;
+
+  padding-top: 10px;
+
+  margin-left: 435px;
+}
+
+/* ========== DESIGNER TOOLS ============ */
+
 .figma {
   width: auto;
   margin-left: 60px;
@@ -250,7 +274,7 @@ a {
 }
 
 .background {
-  height: 1580px;
+  height: 1650px;
 }
 
 /* <<<<<<<<<<<< THE SWIPER FEATURE >>>>>>>>>>>> */
@@ -423,7 +447,7 @@ button:hover {
   background-color: rgba(185, 237, 249, 0.2);
 
   width: 600px;
-  height: 1900px;
+  height: 1850px;
 
   padding-top: 1px;
 
