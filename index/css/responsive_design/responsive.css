@@ -1,0 +1,148 @@
+/* For the entire document */
+/* Mobile Devices */
+@media screen and (max-width: 767px) {
+  body {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 60px 71px;
+  }
+}
+
+/* For the greeting message */
+@media screen and (max-width: 767px) {
+  .name {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .name {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .name {
+    margin: 60px 71px;
+  }
+}
+
+/* Designer span */
+@media screen and (max-width: 767px) {
+  .designer {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .designer {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .designer {
+    margin: 60px 71px;
+  }
+}
+
+/* Opportunities */
+@media screen and (max-width: 767px) {
+  .opportunities {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .opportunities {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .opportunities {
+    margin: 60px 71px;
+  }
+}
+
+/* Buttons */
+@media screen and (max-width: 767px) {
+  .buttons {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .buttons {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .buttons {
+    margin: 60px 71px;
+  }
+}
+
+/* index button */
+/* Buttons */
+@media screen and (max-width: 767px) {
+  .indexbtn {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .indexbtn {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .indexbtn {
+    margin: 60px 71px;
+  }
+}
+
+/* Brief */
+@media screen and (max-width: 767px) {
+  .brief {
+    margin: 20px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .brief {
+    margin: 40px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .brief {
+    margin: 60px 71px;
+  }
+}

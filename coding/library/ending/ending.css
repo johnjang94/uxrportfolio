@@ -1,0 +1,28 @@
+.ending {
+  position: absolute;
+  width: 1280px;
+  height: 196px;
+
+  opacity: 70%;
+
+  z-index: -1;
+}
+
+.word {
+  position: absolute;
+  font-size: 15px;
+  color: black;
+
+  text-align: center;
+
+  margin-top: 30px;
+  margin-left: 500px;
+}
+
+p {
+  margin: 10px;
+}
+
+.copyright {
+  color: blue;
+}

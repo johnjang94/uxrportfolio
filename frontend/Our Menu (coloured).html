@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Restaurant</title>
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: blue;
+      }
+
+      .navigation_box {
+        border: whitesmoke 1px solid;
+        border-radius: 40px;
+
+        width: fit-content;
+        background-color: white;
+
+        padding: 10px;
+      }
+
+      .navigation {
+        margin-top: 300px;
+        margin-left: 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        padding-left: 45px;
+
+        cursor: pointer;
+      }
+
+      a:hover {
+        color: peru;
+      }
+
+      .name1 {
+        background-color: lightgreen;
+      }
+
+      .name2 {
+        background-color: lightyellow;
+      }
+
+      .name3 {
+        background-color: lightcoral;
+      }
+
+      .box {
+        width: 90%;
+        overflow: none;
+      }
+
+      .cont {
+        text-align: center;
+        border: 0.5px solid black;
+        width: 100px;
+        height: auto;
+        padding: 10px;
+        float: right;
+        font-weight: bold;
+        position: relative;
+        margin-top: -45px;
+        margin-right: -11px;
+      }
+
+      .cont2 {
+        width: 100%;
+        height: auto;
+      }
+
+      div {
+        border: 2px solid black;
+        margin-bottom: 20px;
+        margin-right: 5px;
+        margin-left: 30px;
+        padding-top: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+      }
+
+      /*** small devices only ***/
+      @media (max-width: 767px) {
+        body {
+          background-color: lightcyan;
+        }
+
+        .col-1 {
+          width: 8.33%;
+        }
+        .col-2 {
+          width: 16.66%;
+        }
+        .col-3 {
+          width: 25%;
+        }
+        .col-4 {
+          width: 33.33%;
+        }
+        .col-5 {
+          width: 41.66%;
+        }
+        .col-6 {
+          width: 50%;
+        }
+        .col-7 {
+          width: 58.33%;
+        }
+        .col-8 {
+          width: 66.66%;
+        }
+        .col-9 {
+          width: 75%;
+        }
+        .col-10 {
+          width: 83.33%;
+        }
+        .col-11 {
+          width: 91.66%;
+        }
+        .col-12 {
+          width: 100%;
+        }
+      }
+
+      /*** medium devices only ***/
+      @media (min-width: 768px) and (max-width: 991px) {
+        body {
+          background-color: #d4f1f9;
+        }
+
+        .col-md-5 {
+          width: 42.5%;
+        }
+        .col-md-10 {
+          width: 88.5%;
+        }
+
+        .col-md-5,
+        .col-md-10 {
+          float: left;
+        }
+      }
+
+      /*** large devices only ***/
+      @media (min-width: 992px) {
+        body {
+          background-color: #ebf6f7;
+        }
+
+        .col-lg-4 {
+          width: 27%;
+        }
+
+        .col-lg-4 {
+          float: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Menu</h1>
+    <div class="col-10 col-md-5 col-lg-4 box">
+      <p class="cont name1">Chicken</p>
+      <p class="cont2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div class="col-10 col-md-5 col-lg-4 box">
+      <p class="cont name2">Beef</p>
+      <p class="cont2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div class="col-10 col-md-10 col-lg-4 box">
+      <p class="cont name3">Sushi</p>
+      <p class="cont2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <br />
+    <p class="navigation navigation_box">
+      Portfolio Navigation<br /><br />
+      <a href="../../uxdportfolio/index.html">Home</a>
+    </p>
+  </body>
+</html>

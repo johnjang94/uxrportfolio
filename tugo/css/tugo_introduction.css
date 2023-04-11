@@ -1,0 +1,496 @@
+/* ================ DOCUMENT SETTING ================= */
+* {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  width: 47.61px;
+  height: auto;
+}
+
+h1 {
+  position: relative;
+
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+
+  margin-top: 161px;
+}
+
+h3 {
+  position: absolute;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 25px;
+  margin-left: 141.82px;
+}
+
+p,
+li {
+  width: 808px;
+
+  margin-left: 251px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+/* ================ NAVIGATION SETTING ================= */
+.navigation {
+  margin-left: 0px;
+}
+
+.floating-menu {
+  background: #add8e6;
+  border-radius: 15px;
+
+  width: 100px;
+  position: fixed;
+  opacity: 1;
+  z-index: 100;
+
+  padding: 3px;
+
+  margin-top: 100px;
+  margin-left: -142px;
+}
+
+.floating-menu:hover {
+  box-shadow: 0 5px 5px 5px rgba(173, 216, 230, 0.8);
+  opacity: 1;
+  transition-duration: 1s ease-in-and-out;
+
+  margin-left: -50px;
+}
+
+.floating-menu a,
+.floating-menu p {
+  color: black;
+  display: block;
+  font-size: 0.9em;
+  width: 140px;
+
+  padding-block: 3px;
+  margin: 0px;
+}
+
+.floating-menu p {
+  margin-left: 10px;
+}
+
+.linksize {
+  width: fit-content;
+
+  padding-left: 30px;
+}
+
+.linksize:hover {
+  color: white;
+}
+
+/* ================ PROJECT OVERVIEW ================= */
+/* Project Overview - word*/
+.original {
+  margin-top: 72px;
+  margin-left: 119px;
+}
+
+.revised {
+  text-align: right;
+
+  margin-top: 40px;
+  padding-left: 125px;
+}
+
+/* Project Overview - pictures (applied to every picture) */
+.overview {
+  width: 328px;
+  height: 217px;
+
+  border-radius: 40px;
+
+  margin-left: 110px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+}
+
+.overview:hover {
+  border: #add8e6 1px solid;
+}
+
+.reportVU {
+  margin-left: 28px;
+}
+
+.vid {
+  width: 328px;
+  height: 217px;
+
+  margin-left: 28px;
+  margin-bottom: 10px;
+}
+
+.newMenu {
+  width: 773px;
+  height: auto;
+
+  margin-top: 58px;
+  margin-left: 132px;
+}
+
+/* Project Overview - span tags (applied to every span tag for description */
+.tag {
+  margin-left: 220px;
+}
+
+.reportTag {
+  margin-left: 280px;
+}
+
+.vidTag {
+  margin-left: 300px;
+}
+
+/* Project Overview - span tags (applied to individual span tag for description */
+.redesignInsurance {
+  margin-left: 180px;
+}
+
+.redesignReport {
+  margin-left: 170px;
+}
+
+.redesignTag {
+  margin-left: 190px;
+}
+
+/* ================ EXPANSION EFFECTS FOR PROJECT OVERVIEW PICTURES ================= */
+/* <<<<<<<<<<<< MESSAGE SETTING ACROSS ALL 6 PICTURES */
+.image {
+  width: 773px;
+  height: auto;
+
+  margin-top: 58px;
+  margin-left: 132px;
+}
+
+.message {
+  width: 780px;
+  margin-left: 132px;
+}
+
+/* INDIVIDUAL PICTURE SETTING FOR TOGGLE */
+/* <<<<<<<<<<<< FIRST PICTURE >>>>>>>>>>>>> */
+#box {
+  display: none;
+
+  background-color: #fafafa;
+  border-radius: 40px;
+
+  width: 1045.97px;
+  height: 630px;
+
+  margin-top: 10px;
+  margin-left: 117px;
+}
+
+/* <<<<<<<<<<<< SECOND PICTURE >>>>>>>>>>>>> */
+#box2 {
+  display: none;
+
+  background-color: #fafafa;
+  border-radius: 40px;
+
+  width: 1045.97px;
+  height: 650px;
+
+  margin-top: 10px;
+  margin-left: 117px;
+}
+
+/* <<<<<<<<<<<< THIRD PICTURE >>>>>>>>>>>>> */
+#box3 {
+  display: none;
+
+  background-color: #fafafa;
+  border-radius: 40px;
+
+  width: 1045.97px;
+  height: 630px;
+
+  margin-top: 10px;
+  margin-left: 117px;
+}
+
+/* <<<<<<<<<<<< FOURTH PICTURE >>>>>>>>>>>>> */
+#box4 {
+  display: none;
+
+  background-color: #fafafa;
+  border-radius: 40px;
+
+  width: 1045.97px;
+  height: 950px;
+
+  margin-top: 10px;
+  margin-left: 117px;
+}
+
+/* <<<<<<<<<<<< FIFTH PICTURE >>>>>>>>>>>>> */
+#box5 {
+  display: none;
+
+  background-color: #fafafa;
+  border-radius: 40px;
+
+  width: 1045.97px;
+  height: 600px;
+
+  margin-top: 10px;
+  margin-left: 117px;
+}
+
+/* <<<<<<<<<<<< LAST PICTURE >>>>>>>>>>>>> */
+#box6 {
+  display: none;
+
+  background-color: #fafafa;
+  border-radius: 40px;
+
+  width: 1045.97px;
+  height: 870px;
+
+  margin-top: 10px;
+  margin-left: 117px;
+}
+
+/* ================ DESIGN CATEGORY & TOOLS ================= */
+table {
+  font-weight: 600;
+
+  margin-left: 250px;
+}
+
+td {
+  text-align: center;
+  width: 280px;
+
+  background-color: #9addfb;
+  border-radius: 5px;
+
+  padding: 5px;
+}
+
+.even {
+  font-weight: 300;
+
+  margin-top: -27px;
+  margin-left: 400px;
+}
+
+.odd {
+  margin-top: -82px;
+  margin-left: 720px;
+}
+
+.quartet {
+  font-weight: 300;
+
+  margin-top: -27px;
+  margin-left: 820px;
+}
+
+.tools {
+  margin-top: 25px;
+  margin-left: 720px;
+}
+
+/* ================ CONTEXT & BACKGROUND ================= */
+.portal {
+  width: 370px;
+  height: auto;
+
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.insurance {
+  margin-left: 255px;
+}
+
+.claims {
+  width: 800px;
+  height: auto;
+
+  margin-left: 255px;
+}
+
+.challenge {
+  color: red;
+
+  margin: 0px;
+}
+
+/* ================ PROJECT SCHEDULE ================= */
+.deliverytitle {
+  background-color: deepskyblue;
+
+  width: 350px;
+  padding: 15px;
+
+  border-radius: 10px 0px 0px 0px;
+}
+
+.deliverytitle2 {
+  background-color: deepskyblue;
+
+  width: 350px;
+  padding: 15px;
+
+  border-radius: 0px 10px 0px 0px;
+}
+
+.delivery {
+  font-weight: 300;
+
+  border-radius: 0px;
+}
+
+.november {
+  font-weight: 300;
+
+  border-radius: 0px;
+
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.delivery2 {
+  margin-left: 655px;
+  margin-top: -203px;
+}
+
+.date {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.last {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.last2 {
+  border-radius: 0px 0px 10px 0px;
+}
+/* ================ PORTFOLIO MENU SETTING ================= */
+a {
+  color: black;
+}
+/* ================ RESEARCH CARD SETTING ================= */
+.research {
+  width: 377.51px;
+  height: 447px;
+
+  margin-top: 131px;
+  margin-left: 251px;
+}
+
+.picture {
+  width: 377.51px;
+  height: 314px;
+
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.box {
+  height: 146px;
+
+  background-color: #fafafa;
+
+  margin-top: -16px;
+}
+
+.box:hover {
+  background-color: #9addfb;
+  transition: 0.5s ease-in-out;
+}
+
+.word {
+  position: absolute;
+
+  width: 316px;
+
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+/* ================ DESIGN CARD SETTING ================= */
+.design {
+  margin-top: -447px;
+  margin-left: 655px;
+}
+
+/* ================ USABILITY CARD SETTING ================= */
+.usability {
+  margin-top: 25px;
+  margin-left: 251px;
+}
+
+.testing {
+  margin-left: 110px;
+}
+/* ================ END BANNER SETTING ================= */
+.banner {
+  width: 1470px;
+  height: 200px;
+
+  margin-top: 50px;
+  margin-left: -80px;
+  margin-bottom: -30px;
+}
+
+.ending {
+  position: absolute;
+
+  margin-top: 90px;
+  margin-left: 603px;
+  margin-bottom: 30px;
+}
+
+.endin {
+  position: absolute;
+
+  margin-top: 120px;
+  margin-left: 595px;
+}
+
+.end {
+  position: absolute;
+
+  margin-top: 150px;
+  margin-left: 560px;
+}
+
+.End {
+  position: absolute;
+  color: blue;
+
+  margin-top: 180px;
+  margin-left: 480px;
+}

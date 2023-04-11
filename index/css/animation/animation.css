@@ -1,0 +1,62 @@
+.slide-fade-in {
+  left: -100px;
+  opacity: 0;
+  animation-name: slide-fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes slide-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-fade-in2 {
+  right: -100px;
+  opacity: 0;
+  animation-name: slide-fade-in2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes slide-fade-in2 {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-fade-in3 {
+  bottom: -100px;
+  opacity: 0;
+  animation-name: slide-fade-in3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes slide-fade-in3 {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

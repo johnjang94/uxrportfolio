@@ -1,116 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>John Jang the UX Researcher</title>
+    <title>John Jang the UX Designer</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto"
-      type="text/css"
-    />
-    <link href="css_about/about_1280px.css" rel="stylesheet" />
+    <link href="about/css/about.css" rel="stylesheet" />
   </head>
   <body>
-    <img class="logo" src="images/decoration/logo-edited.jpg" alt="logo" />
-    <div class="topnav">
-      <a class="btn" href="index.html">Home</a>
-      <a class="btn" href="about.html">About Me</a>
-      <a class="btn" href="contact.html">Contact</a>
+    <link
+      src="../uxdportfolio/coding/library/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
+    />
+    <img
+      src="../uxdportfolio/about/images/logo/logo-edited.jpg"
+      alt="Logo"
+      class="logo"
+    />
+    <nav class="floating-menu">
+      <p class="navigation">NAVIGATION</p>
+      <a class="linksize" href="index.html">Home</a>
+      <a class="linksize" href="about.html">About</a>
+      <a class="linksize" href="contact.html">Contact</a>
+      <a class="linksize" href="codingjourney.html">Coding</a>
+    </nav>
+    <div class="dropdown">
+      <span class="hamburger-icon" onclick="toggleMenu()">&#9776;</span>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
-    <h1 class="hello">Hello! 👋🏼</h1>
-    <h2 class="pleasure">It is a pleasure to meet you!</h2>
-    <h1 class="mybackgroundtitle">My background</h1>
-    <p class="mybackgrounddetail">
-      I have studied Psychology and Neuroscience when I was in university.<br />
-      Now, I hold a certificate in UX Design from one of the accredited
-      universities here in Toronto, Ontario, Canada 🇨🇦.<br /><br />
+    <h1>Hello! 👋🏼</h1>
+    <p class="greeting">It is a pleasure to meet you!</p>
+    <h3>My background</h3>
+    <p>
+      In terms of academic background, I have studied Psychology (and have taken
+      some courses in Neuroscience) <br />when I was an undergraduate. Recently,
+      I have completed a UX Design bootcamp and now I officially hold<br />
+      a UX certificate from an accredited university in the local area here in
+      Toronto, Ontario, Canada 🇨🇦.
+      <br />
+      <br />
+      By understanding the human mind from the deep inside, I design a system
+      that is appropriate, soothing, and accommodating to the needs in various
+      environments including the digital.
+    </p>
+    <h3>Oh Canada! 🇨🇦</h3>
+    <p>
+      I am an ordinary Canadian who was raised in Maritimes, specifically in New
+      Brunswick.<br />
+      According to Statistics Canada, there are approximately just about more
+      than 776,000 people live in this province as of 2019. I used to live in a
+      small city called Fredericton, the capital of New Brunswick. <br />Except
+      the primary, I finished all my secondary and post-secondary education here
+      in the small city until 2017.
+    </p>
+    <img
+      src="../uxdportfolio/about/images/Oh_Canada/NB.jpeg"
+      alt="New Brunswick picture"
+      class="picture"
+    />
+    <img
+      src="../uxdportfolio/about/images/Oh_Canada/Fredericton.jpeg"
+      alt="Fredericton picture"
+      class="picture fredericton"
+    />
+    <br />
+    <span>New Brunswick</span>
+    <span class="freddy">Fredericton</span>
+    <p class="explained">
+      In 2017, I moved to here in Toronto --- it was meant to be a visit, but I
+      ended up working as a receptionist.<br />
+      It could have been a good position for me, but I didn't really enjoy the
+      position back then.<br />
+      <br />
+      After leaving the job, I pursued my interested into the field of Education
+      and have spent the next few years studying and working as a teacher ---
+      until COVID-19 came out of nowhere.<br />
+      <br />
+      Things have become a lot tougher and I needed computer to continue
+      teaching the students.<br />
+      Eventually, this type of working environment has opened my eyes on user
+      experience (really because I was always thinking about what I am using
+      given tools to teach and how I should teach young students to make sure
+      that they are staying engaged).<br />
+      <br />
+      This was the moment I thought that I want to pursue my career in the field
+      of UX.<br /><br />
+      In January 2022, I have enrolled myself to a UX Design bootcamp that is
+      offered by one of the accredited university here in the local area. The
+      program lasted the total of 8 months and I have spent last 2 months
+      practicing the UX skills I learned while participating in a real-world
+      practice case with other teammates from the program.
+      <br /><br />
+      Today, I hold an official UX Certificate while continuing the practice on
+      my own.
+    </p>
+    <h3>I ❤️ traveling!</h3>
+    <p>
+      I have visited different places when I was...
+      <li>an exchange-student</li>
+      <li>a member in Scouts Canada</li>
+      <li>a student in external credit program called "Explore"</li>
+      <li>
+        an educator / an instructor in another country as an ESL instructor
+      </li>
+    </p>
+    <p>
+      Hence, as you can see, I have travelled many places around the world. My
+      story in travel is still being written.
+    </p>
+    <img
+      src="../uxdportfolio/about/images/traveling/Mt. Katahdin.jpg"
+      alt="Mt. Katahdin"
+      class="picture"
+    />
+    <div class="places">
+      Location📍 Mt. Katahdin, the US<br />
+      Time: November 2016<br />
+      <br />
+      I have been to SF, LA, Vegas, and SD before my visit to Mt. Katahdin.<br />
+      I have been here twice and it was fun to climb up the mountain!
+    </div>
+    <img
+      src="../uxdportfolio/about/images/traveling/Tate Modern.jpeg"
+      alt="Tate Modem"
+      class="picture place"
+    />
+    <div class="places">
+      Location📍 Tate Modem, the UK<br />
+      Time: May 2015<br />
+      <br />
+      This is one of the places that I have visited while I was in England for a
+      month. Tate Modern is a type of museum where you can see all kind of art
+      collections.<br /><br />
 
-      I am passionate to understand the human mind from the deep inside and have
-      dedication to deliver simplistic and intuitive designs for digital
-      environment.
-    </p>
-    <h1 class="ohcanada">Oh Canada ~ 🇨🇦</h1>
-    <p class="ohcanadadetail">
-      I was raised in Fredericton, New Brunswick, Canada.<br />
-      I have moved to here in Toronto a few years ago and now this place has
-      become a new hometown for me.
-    </p>
+      In fact, the building itself now has become the landmark of London, UK. I
+      dropped by this place along with London Eye, Big Ben, etc. during my stay
+      in England.
+    </div>
     <img
-      class="frederictonimage"
-      src="images/about/Fredericton Campus.jpeg"
-      alt="Fredericton"
+      src="../uxdportfolio/about/images/traveling/Sherbrooke.jpeg"
+      alt="Sherbrooke"
+      class="picture"
     />
-    <img class="torontoimage" src="images/about/toronto.jpeg" alt="Toronto" />
-    <br />
-    <span class="fredericton">Fredericton</span>
-    <span class="toronto">Toronto</span>
-    <h1 class="places">Places I've been</h1>
+    <div class="places">
+      Location📍 Sherbrooke, Quebec<br />
+      Time: July 2015<br />
+      <br />
+      I was at Sherbrooke for a month to study Intermediate level of French. My
+      study trip happened after I finished the beginner course at university.<br />
+      <br />
+      Learning a new language was tough, but it was still fun to learn!
+    </div>
     <img
-      class="englandimage"
-      src="images/about/Tate Modern.jpeg"
-      alt="Tate Modern, the UK"
+      src="../uxdportfolio/about/images/traveling/ontario_lake.jpeg"
+      alt="Ontario Lake"
+      class="picture place2"
     />
+    <div class="places">
+      Location📍 Ontario Lake, Ontario<br />
+      Time: (I cannot remember 🙄)<br />
+      <br />
+      This was my first visit to Ontario, Canada. I was camping at Ontario Lake
+      with my fellow campers from Scouts Canada for a week.<br /><br />
+      The nature was beautiful and all the activities that I have done were
+      physically challenging --- which were great actually!
+    </div>
     <img
-      class="unitedstatesimage"
-      src="images/about/Mt. Katahdin.jpg"
-      alt="Mountain Katadin in the US"
+      src="../uxdportfolio/about/images/traveling/seoul.jpeg"
+      alt="Seoul"
+      class="picture"
     />
-    <img
-      class="quebecimage"
-      src="images/about/Sherbrooke.jpeg"
-      alt="Sherbrooke, Quebec"
-    />
-    <br />
-    <span class="england">Tate Modern, the UK</span>
-    <span class="unitedstates">Mountain Katadin, the US</span>
-    <span class="quebec">Sherbrooke, Quebec, Canada</span>
-    <h1 class="myhobbies">My Hobbies</h1>
-    <p class="myhobbiesdetail">Video Editing & Dancing</p>
-    <video width="1100px" height="auto" style="margin-left: 200px" controls>
+    <div class="places">
+      Location📍 Seoul, Republic of Korea<br />
+      Time: February 2020 ~ September 2021<br />
+      <br />
+      I was in Korea as an English instructor over a year and a half. Besides
+      Seoul, I have been to other cities such as Ansan and Hwa-jeong. Korea is a
+      beautiful country with so much dynamic products from food to fashion,
+      cosmetic surgery, and trips.<br /><br />They offer top-notch level of
+      convenience for internet, food delivery, and commute everywhere.
+    </div>
+    <h3>My other hobbies</h3>
+    <p>Besides traveling, I enjoy singing, dancing, and video-editing.</p>
+    <script src="../uxdportfolio/about/js/about.js"></script>
+    <video width="808px" height="auto" style="margin-left: 251px" controls>
       <source src="movie.ogg" type="video/ogg" />
       <source
-        src="videos/about_video2.mp4"
+        src="../uxdportfolio/about/video/hobby.mp4"
         type="video/mp4"
         alt="My introduction video"
       />
       Your browser does not support the video play.
       <button>Play</button>
     </video>
-    <h1 class="funfact">Fun Fact about Me</h1>
-    <p class="funfactdetail">
-      The TV monitor in my house is just an external projector, not for the TV
-      service.
+    <h3>Fun fact about me</h3>
+    <p>
+      I have a big TV monitor in my place, but it is just used an external
+      projector instead as the TV.
     </p>
-    <section>
-      <img
-        class="tvmonitor"
-        src="images/about/tvmonitor.png"
-        alt="TV Monitor"
-      />
-      <button class="home">
-        <a class="link" href="index.html">&#8826; Home</a>
-      </button>
-      <button class="centerbtn">
-        <a class="link" href="televu_research.html">Project TeleVU</a>
-      </button>
-      <button class="contacts">
-        <a class="link" href="contact.html">Contact &#8827;</a>
-      </button>
-    </section>
-    <section>
-      <div>
-        <img
-          class="ending"
-          src="images/decoration/fallsky.jpeg"
-          alt="Ending Background"
-        />
-        <p class="name">John Jang</p>
-        <p class="names">UX Designer</p>
-        <p class="name_s">jscolbe9675@gmail.com</p>
-        <footer class="name-s">
-          Copyright &copy; 2022 John Jang All Rights Reserved
-        </footer>
-      </div>
-    </section>
+    <img
+      src="../uxdportfolio/about/images/fun_fact/tvmonitor.png"
+      alt="TV monitor"
+      style="width: 500px; height: auto; margin-top: 10px; margin-left: 430px"
+    />
+    <p class="ending">John Jang</p>
+    <p class="endin">UX Designer</p>
+    <p class="end">jscolbe9675@gmail.com</p>
+    <footer class="End">
+      Copyright &copy; 2022 John Jang All Rights Reserved
+    </footer>
+    <img
+      src="../uxdportfolio/index/images/decoration/fallsky.jpeg"
+      alt="Ending Banner"
+      class="banner"
+    />
   </body>
 </html>

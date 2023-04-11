@@ -1,1661 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>John Jang the UX Researcher</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css_televu/televu_research_1280px.css" rel="stylesheet">
-    </head>
-    <script type="text/javascript" src="js_televu/televu.js" defer></script>
-    <body>
-    <img class="logo" src="images/decoration/logo-edited.jpg" alt="logo" />
-    <div class="topnav">
-      <a class="btn" href="index.html">Home</a>
-      <a class="btn" href="about.html">About Me</a>
-      <a class="btn" href="contact.html">Contact</a>
-    </div>
-    <div class="introduction">
-      <h1>Project TeleVU</h1>
-        <nav class="floating-menu">
-          <div>
-            <p>NAVIGATION</p>
-            <a class="linksize" href="#designoverview_id">DESIGN OVERVIEW</a>
-            <a class="linksize" href="#project_id">Project Journey</a>
-            <a class="linksize" href="#design_id">Design</a>
-            <a class="linksize" href="#reflection_id">Reflection</a>
-          </div>
-        </nav>
-    </div>
-    <div class="distance">
-      <div id="designoverview_id">
-        <h1 class="overview">PROJECT OVERVIEW</h1>
-      </div>
-      <p class="original">From how the original version looked like...</p>
-      <span class="originalspan">(please click the pictures to zoom-in)</span>
-      <div class="originalglassvugrid">
-        <span class="glassvudescription">Original GlassVU</span>
-      </div>
-      <table>
-        <tr>
-          <th>
-              <a onclick="togglePopup1()">
-                <div class="original-glassvu-card">
-                  <img
-                  class="originalglassvuimage"
-                  src="images/televu/original_product/original_glassvu.jpg"
-                  alt="Original GlassVU"
-                  />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <div class="popup" id="popup-1">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup1()">&times;</div>
-                    <img
-                      class="original-glassvu"
-                      src="images/televu/original_product/original_glassvu.jpg"
-                      alt="Original GlassVU"
-                    />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-      <!--  -->
-      <span class="reportvu1">Original ReportVU</span>
-      <table style="margin-top: -52px;">
-        <tr>
-          <th>
-              <a onclick="togglePopup2()">
-                <div class="original-reportvu-card">
-                  <img class="originalreportvuimage"
-                  src="images/televu/original_product/original_reportvu.jpg"
-                  alt="Original ReportVU"
-                  />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <div class="popup" id="popup-2">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
-                  <img class="original-reportvu"
-                  src="images/televu/original_product/original_reportvu.jpg"
-                  alt="Original ReportVU"
-                  />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-      <!--  -->
-      
-      <table style="margin-top: -25px;">
-        <tr>
-          <th>
-              <a onclick="togglePopup3()">
-                <div class="original-vid-con-card">
-                  <img class="originalvidconimage"
-                  src="images/televu/original_product/original_version_video_conference.jpg"
-                  alt="Original Video Conference Page"
-                />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <div class="vid-con">
-        <span class="vid-con1">Original Video Conference Page</span>
-      </div>
-
-      <table>
-        <tr>
-          <th>
-            <div class="popup" id="popup-3">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
-                  <img class="original-vid-con"
-                  src="images/televu/original_product/original_version_video_conference.jpg"
-                  alt="Original Video Conference Page"
-                />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-
-      <!--  -->
-      <div class="change">
-        <p class="newfont">...to how it gets changed.</p>
-      </div>
-
-      
-      <table style="margin-top: 13px;">
-        <tr>
-          <th>
-              <a onclick="togglePopup4()">
-                <div class="redesigned-glassvu-card">
-                  <img class="redesignglassvuimage"
-                  src="images/televu/redesigned_product/redesigned_device_info_high_fi.jpg"
-                  alt="Redesigned GlassVU"
-                  />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <div class="redesignedglassvu">
-        <span >Redesigned GlassVU</span>
-      </div>
-
-      <table>
-        <tr>
-          <th>
-            <div class="popup" id="popup-4">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
-                  <img class="redesign-glassvu"
-                  src="images/televu/redesigned_product/redesigned_device_info_high_fi.jpg"
-                  alt="Redesigned GlassVU"
-                  />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-      <!--  -->
-  
-      <table style="margin-top: 52px;">
-        <tr>
-          <th>
-              <a onclick="togglePopup5()">
-                <div class="redesigned-reportvu-card">
-                  <img class="redesignreportvuimage"
-                  src="images/televu/redesigned_product/redesigned_history_high_fi.jpg"
-                  alt="Redesigned ReportVU"
-                />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <div class="redesignedreportvu">
-        <span>Redesigned ReportVU</span>
-      </div>
-  
-      <table>
-        <tr>
-          <th>
-            <div class="popup" id="popup-5">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup5()">&times;</div>
-                  <img class="redesign-reportvu"
-                  src="images/televu/redesigned_product/redesigned_history_high_fi.jpg"
-                  alt="Redesigned ReportVU"
-                />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-      <!--  -->
-
-      <table style="margin-top: 85px;">
-        <tr>
-          <th>
-              <a onclick="togglePopup6()">
-                <div class="redesigned-vid-conference-card">
-                  <img class="redesignvidconferenceimage"
-                  src="images/televu/redesigned_product/redesigned_high_fi_video_conference_session.jpg"
-                  alt="Redesigned Video Conference Page"
-                  />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <div class="redesignedvidconference">
-        <span>Redesigned Video Conference Page</span>
-      </div>
-
-      <table>
-        <tr>
-          <th>
-            <div class="popup" id="popup-6">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup6()">&times;</div>
-                  <img class="redesign-vid-conference"
-                  src="images/televu/redesigned_product/redesigned_high_fi_video_conference_session.jpg"
-                  alt="Redesigned Video Conference Page"
-                  />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-
-
-    <div class="distance-brief">
-        <h1 class="abouttheproject">ABOUT THE PROJECT</h1>
-        <p class="projectbrief">
-          This was a real-world project that was arranged by one of the accredited universities here in Toronto, Ontario, Canada 🇨🇦, and my teammates and I were asked to redesign the existing product.
-        </p>
-      <table class="category">
-        <tr>
-            <th>Category</th>
-        </tr>
-      </table>
-      <table class="designtable">
-        <tr>
-          <td class="subcategory">UX Design</td>
-        </tr>
-      </table>
-      <table class="durationtime">
-        <tr>
-          <th>Duration of Time</th>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <td class="designduration">2 Months (June 2022 ~ August 2022)</td>
-        </tr>
-      </table>
-      <table class="myrole">
-        <tr>
-          <th>My Role</th>
-        </tr>
-      </table>
-      <table class="uxresearcher">
-        <tr>
-          <td>Lead UX Researcher</td>
-        </tr>
-      </table>
-      <table class="toolsused">
-        <tr>
-          <th>Tools Used</th>
-        </tr>
-      </table>
-      <table class="toolsdetail">
-        <tr>
-          <td class="">Figma, Miro &#38; Google Spreadsheet</td>
-        </tr>
-      </table>
-    </div>
-    <div>
-      <h1 class="televu">CONTEXT & BACKGROUND</h1>
-      <p class="televu_intro">
-        TeleVU Innovations Inc. is a privately-owned telecommunication corporation that connects the clinicians and the patients on a remote-basis to reduce the wait times and to offer improved medical assistance.
-      </p>
-      <p class="televu_intro2">
-        TeleVU Innovations Inc. offers two different products that are connected to each other.<br/>
-        One of them is the access to the desktop website that clinicians can use to treat patients remotely.
-      </p>
-      <table>
-        <th>
-          <img src="images/televu/original_product/original_glassvu.jpg" alt="TeleVU Devices" class="televudevices"/>
-        </th>
-      </table>
-      <br/>
-      <span class="televudevicesspan">TeleVU Website Portal</span>
-      <div class="room">
-        <p class="televu_intro2">
-          The other product is the service in glasses which is wearable.<br/>
-          This machine is usually provided to the guardians or nurses who can assist the patients.
-        </p>
-      </div>
-      <table>
-        <th>
-          <img src="images/televu/assumptions/mobileimage1.jpeg" alt="TeleVU Mobile Landscape" class="televuintroimg"/>
-        </th>
-      </table>
-      <br/>
-      <span class="televusmartglass">TeleVU Smart Glass application on Mobile environment</span>
-    </div>
-    <div>
-      <h1 class="challengeintro">Challenge</h1>
-      <p class="challengeintrodescriptionhead">My design team and I were asked to provide redesign of the existing product by...</p>
-      <li class="challengeintrodescription">understanding what makes them to use the product</li>
-      <li class="challengeintrodescription">understanding the pain points that the users experience while they interact with the product</li>
-      <li class="challengeintrodescription">based on their complaints or suggestions, come up with different ideas that accommodate the needs</li>
-    </div>
-    <div>
-      <p class="projectperception">
-        How did I perceive this project?
-      </p>
-      <p class="projectperceptiondescription">
-        I had a chance to think about this project in two different ways:<br/>
-        <li class="projectperceptiondescription">if I am the patient, how can I get the assistance fast? Is there any solution other than endless waiting?</li>
-        <li class="projectperceptiondescription">if I am the clinician, what could be the possible ways to help the patients in missing out the golden time?</li>
-      </p>
-    </div>
-    <div>
-      <p class="accomplishment">
-        What have I accomplished from this project?
-      </p>
-      <p class="accomplishment_subtitle">
-        As I was the leader in the research part,
-      </p>
-      <li class="accomplishmentdescription">I have successfuilly delievered the appropriate guidance to the design team regarding what and how the design might need to appear to be.</li>
-      <li class="accomplishmentdescription">I have successfully helped the client of this project to understand the issue and what needs to be done to help his business thrive.</li>
-      <p class="accomplishment_subtitle">
-        As for the project in general,
-      </p>
-      <li class="accomplishmentdescription">The customers for my client feels that the product is more straight-forward to use</li>
-      <li class="accomplishmentdescription">We have greatly reduced the time for the customers to complete one action at a time</li>
-    </div>
-    <div>
-      <p class="questiondelivery">
-        What have we delivered to our client?
-      </p>
-      <p class="questionanswer">We have delivered the following list of supporting documents to the client:</p>
-      <ul>
-        <li class="questionanswer">User Interview</li>
-        <p class="questionanswerdetail">- I directed this part in my team</p>
-        <li class="questionanswer">Competitive Analysis</li>
-        <p class="questionanswerdetail">- I directed this part in my team</p>
-        <li class="questionanswer">User Journey Map</li>
-        <p class="questionanswerdetail">- I collaborated this part with my teammates</p>
-        <li class="questionanswer">Wireframing & Prototyping</li>
-        <p class="questionanswerdetail">- I assisted this part</p>
-      </ul>
-    </div>
-    <div class="gap2">
-      <div id="project_id">
-        <h1 class="project_journey projectjourney">
-          PROJECT JOURNEY
-        </h1>
-      </div>
-    </div>
-    <table class="about">
-      <tr>
-        <img class="journeyimage" src="images/decoration/uxdesignprocess.jpeg" alt="5 Stages of UX Design Process"/> 
-      </tr>
-      <tr>
-        <p class="projectjourneydescription">
-          5 Stages of UX Design Process
-        </p>
-      </tr>
-    </table>
-    <div class="distance2">
-      <p class="understand">
-       Understand 
-      </p>
-      <p class="understandintroduction">
-        In order to redesign the client's product that is efficient and usable,
-        we needed to explore the client's product first.
-
-        Once the exploration was completed, we have outlined our assumptions.
-      </p>
-      <!-- <p class="project-description">
-        This was a real-world project that was arranged by one of the accredited universities here in Toronto.<br/><br/>
-        The client, for this project, is the CEO of TeleVU Innovations Inc. and we were requested to re-design a product that already exists to make it better.
-      </p> -->
-      <h2 class="assumptions">Assumptions</h2>
-      <h2 class="assumption">From the client</h2>
-      <div class="assumption_exp">
-        <p>&#8810 Video-Conference Session &#8811</p>
-        <li>Menu layout is not oganized</li>
-        <li>Icons are not organized</li>
-      </div>
-      <h2 class="assumptions_team">From the team</h2>
-      <p class="assumptions_team_description">
-       While we were exploring the tool, we have noted on what we've learnt and experienced along the way.<br/>
-       The following are our assumptions:<br/>
-      </p>
-      <div>
-        <h2 class="vid_nav_session">Video-Conference Session</h2>
-        <span class="clickable">(images are clickable)</span><br/><br/><br/>
-        <span class="nav1">Navigation menus</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup7()">
-                  <div>
-                    <img
-                    src="images/televu/assumptions/image1.jpeg"
-                    alt="Video-Conference Session Navigation"
-                    class="navigationimg"
-                    />
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup1" id="popup-7">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup7()">&times;</div>
-                    <img
-                    src="images/televu/assumptions/image1.jpeg"
-                    alt="Video-Conference Session Navigation"
-                    class="videoconferencesessionnavigationimage"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-      <div class="flip-card1">
-        <div class="flip-card-inner1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="televu/css/televu_research.css" rel="stylesheet" />
+    <title>TeleVU - Case Study Research</title>
+  </head>
+  <body>
+    <img
+      src="../uxdportfolio/about/images/logo/logo-edited.jpg"
+      alt="Logo"
+      class="logo"
+    />
+    <nav class="floating-menu">
+      <p class="navigation">NAVIGATION</p>
+      <a class="linksize" href="index.html">Home</a>
+      <a class="linksize" href="about.html">About</a>
+      <a class="linksize" href="contact.html">Contact</a>
+      <a class="linksize" href="codingjourney.html">Coding</a>
+    </nav>
+    <h1>Research</h1>
+    <h3 class="difficulties">Addressed difficulties among users</h3>
+    <p>
+      In the beginning of the research phase, it came to the team’s attention
+      that the clinicians were also seeking for a chance to provide the company
+      a bit of feedback on the company's product. If there was anything, they
+      were always overwhelmed with the number of patients which did not leave
+      them a moment to speak up for themselves until we have reached out to
+      them.
+    </p>
+    <h3>Assumptions</h3>
+    <p>
+      In order to redesign the client's product that is efficient and usable, we
+      needed to explore the client's product first. Once the exploration was
+      completed, we have outlined our assumptions.
+    </p>
+    <li>Assumptions that the client had:</li>
+    <br />
+    <span>Original Video session window design</span><br />
+    <img
+      src="../uxdportfolio/televu/images/research/assumptions/original_video_session.jpeg"
+      alt="Original Video"
+      class="assumption"
+    />
+    <div class="flip-card1">
+      <div class="flip-card-inner1">
         <div class="flip-card-front1">
-          <p class="explained">
-            Explained
+          <p class="about">About Vide-Conference session window</p>
+        </div>
+        <div class="flip-card-back1">
+          <p class="content">
+            The client had the following assumptions:<br />
+            <li class="content">Menu layout is not organized</li>
+            <li class="content">Icons are not organized</li>
           </p>
         </div>
-          <div class="flip-card-back1">
-            <p class="pad1">
-              * Control layer for PC was on the top panel <br/><br/>
-              
-              * Control layer for mobile (the screen in the centre) was on the left panel<br/><br/>
-
-              Conclusion:<br/>we thought that they were not located in an convenient way.
-            </p>
-          </div>
-        </div>
       </div>
-      <!--  -->
-
-      <div class="">
-        <span class="nav2">Icons and Layouts</span>
-      </div>
-      <table>
-        <tr>
-          <th>
-              <a onclick="togglePopup8()">
-                <div>
-                  <img
-                    class="iconsandlayouts"
-                    src="images/televu/assumptions/image2.jpeg"
-                    alt="Video-Conference Session - Icons & Layouts"
-                  />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <div class="popup2" id="popup-8">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup8()">&times;</div>
-                  <img
-                  class="iconsandlayoutsimage"
-                  src="images/televu/assumptions/image2.jpeg"
-                  alt="Video-Conference Session - Icons & Layouts"
-                />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-
-      <div class="flip-card2">
-        <div class="flip-card-inner2">
-        <div class="flip-card-front2">
-          <p class="explained">
-            Explained
-          </p>
-        </div>
-          <div class="flip-card-back2">
-            <p class="pad2">
-              * Icons for both PC and mobile did not seem to follow the industry convention (i.e. not easy to identify or locate on the screen)
-            </p>
-          </div>
-        </div>
-      </div>
-      <!--  -->
-
-
-      <div class="">
-        <span class="nav3">Interactivity</span>
-      </div>
-      <table>
-        <tr>
-          <th>
-              <a onclick="togglePopup9()">
-                <div>
-                  <img
-                    src="images/televu/assumptions/image3.jpeg"
-                    alt="Interactivity"
-                    class="interactivity"
-                  />
-                </div>
-              </a>
-          </th>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <div class="popup3" id="popup-9">
-              <div class="overlay">
-                <div class="content">
-                  <div class="close-btn" onclick="togglePopup9()">&times;</div>
-                  <img
-                    src="images/televu/assumptions/image3.jpeg"
-                    alt="Interactivity"
-                    class="interactivityimage"
-                  />
-                </div>
-              </div>
-            </div>
-          </th>
-        </tr>
-      </table>
-
-      <div class="flip-card3">
-        <div class="flip-card-inner3">
-        <div class="flip-card-front3">
-          <p class="explained">
-            Explained
-          </p>
-        </div>
-          <div class="flip-card-back3">
-            <p class="pad3">
-              A) no interaction<br/>
-              (i.e. video loading or not when called?)<br/><br/>
-              B) excessive alert size<br />
-              (i.e. recording button is too big)<br/><br/>
-              C) unclear after use<br/>
-              (i.e. video session terminated. what next? where can you find the recording?)
-            </p>
-          </div>
-        </div>
-      </div>
-    <!-- this is where the main content begins -->
-    <div>
-      <h1 class="problemstatement">
-        Problem Statement
-      </h1>
-      <p class="problemstatementdescription">
-        We want to understand the user experience of TeleVU Suite in-depth, especially focusing on iSee web portal, and discover some pain points during the use.
-      </p>
     </div>
-    <div>
-      <h1 class="researchpurpose">
-        Research Purpose
-      </h1>
-    </div>
-    <table>
-      <tr>
-        <th>
-          <div>
-            <p class="researchpurposeexplainedhead">
-              The aim of this study included the following considerations:
-            </p>
-            <li class="research_purposeexplained">some questions that identify difficulties that people have encountered while using the applications</li>
-            <li class="researchpurpose_explained">
-              collecting open suggestions on where and how to improvise the structure or the layout if necessary
+    <li>Assumptions that the team had:</li>
+    <br />
+    <span>Original Video session window design</span><br />
+    <img
+      src="../uxdportfolio/televu/images/research/assumptions/original_video_session.jpeg"
+      alt="Icons"
+      class="assumption"
+    />
+    <div class="flip-card1">
+      <div class="flip-card-inner1">
+        <div class="flip-card-front1">
+          <p class="about">About Vide-Conference session window</p>
+        </div>
+        <div class="flip-card-back1">
+          <p class="content">
+            <li class="content">
+              Icons for both PC and mobile did not seem to follow the industry
+              convention (i.e. not easy to identify or locate on the screen)
             </li>
-          </div>
-          <a onclick="togglePopup25()">
-            <button class="researchmoreinfo">More Info</button>
-          </a>
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup16" id="popup-25">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup25()">&times;</div>
-                <p class="researchpurposeexplained2">
-                  The following interview study was conducted to investigate the usability of TeleVU suite
-                  (i.e. TeleVU iSee web portal, TeleVU uSee mobile application, video call session, etc.) among
-                  the people who use the TeleVU corporation’s products. Prior to the beginning phase of the
-                  questionnaires, the participants were acknowledged regarding the purpose of the study which is to
-                  learn the first impression of TeleVU iSee web portal, the overall user experience of navigation and
-                  the use of provided menu of the web portal, and the overall user experience of built-in functions
-                  during the video-call sessions. The aim of this study included some questions that identify
-                  difficulties that people have encountered while using the applications and collecting open
-                  suggestions to understand on where and how to improvise the structure or the layout if
-                  necessary. Furthermore, the participants were also acknowledged that all the information that
-                  were collected during the interview will remain anonymous and confidential. As a final note, the
-                  participants were also notified that the participation was voluntary.
-                </p>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-    <div>
-      <h1 class="proposedresearch">Proposed Research Plan</h1>
-      <p class="proposalexplained">
-        The current research has proposed three types of studies to investigate and understand the
-        provided resources in-depth, to find out how the product truly interacts with the potential
-        customers, and how the business may thrive in the industry. The two types of studies are
-        identified as follows:
-      </p>
-      <ul class="proposal1">
-        Usability testing and user interview
-        <p class="proposalcontent1">
-          Although actual end-user testing would be more accurate, we will conduct usability testing
-          and user interview to gather qualitative data from participants as per client's preference.
-          The product for this project is video conferencing tool, hence, qualitative data should be
-          sufficient.
-        </p>
-      </ul>
-      <ul class="proposal2">
-        Competitive Analysis
-        <p class="proposalcontent2">
-          Due to limited budget and resource capacity, we plan to conduct competitive analysis in an
-          adjacent market which is in video-conferencing industry. Tentative candidate products for
-          the competitive research are Zoom and Google Meet.
-        </p>
-      </ul>
-    </div>
-    <div>
-      <h1 class="objectives">
-        Objectives
-      </h1>
-      <p class="objectivesexplained">
-        In this research, we want to….
-      </p>
-      <li class="objectiveslist">uncover the first impression of iSee web app</li>
-      <li class="objectiveslist">discover different tools that are available to the clients when they decide to interact with other clients using the product</li>
-      <li class="objectiveslist">discover the pain points from the current tools and suggestions for improved usability</li>
-    </div>
-    <div>
-      <h1 class="hypothesis">
-        Hypothesis
-      </h1>
-      <p class="hypothesisexplained">
-        We believe that modernizing the built-in features for the clients on the web portal will increase the chance of saving lives as well as the period of the time that the clinicians are engaged in using the products. We will know that this is true when we detect a) an increased number of users and b) an increase in the usage (by percentage) on TeleVU Suite.
-      </p>
-    </div>
-    <div>
-      <h1 class="recruitmentprocess">Recruitment Process</h1>
-      <p class="recruitmentprocesscondition">
-        We have recruited participants who….
-      </p>
-      <li class="recruitmentcondition">are using TeleVU iSee (web application) to communicate with other healthcare service providers who use TeleVU uSee (mobile application)</li>
-      <li class="recruitmentcondition">are novice to TeleVU Suite (experienced less than 6 months)</li>
-      <li class="recruitmentcondition">have the experience of using TeleVU iSee for approximately 6 months in the past</li>
-      <li class="recruitmentcondition">have discontinued the TeleVU service during their sessions</li>
-      <li class="recruitmentcondition">have the experience of using other telecommunication products that deliver similar service</li>
-      <li class="recruitmentcondition">have invited other clinicians to try TeleVU Suite in the past</li>
-      <li class="recruitmentcondition">have been invited to use TeleVU Suite in the past</li>
-    </div>
-    <div>
-      <h1 class="sampleinterviewquestions">
-        Sample Questions
-      </h1>
-      <img src="images/televu/interviewguide/sample_questions.jpeg" alt="Sample interview questions"
-      class="interviewquestionspicture"/>
-      <span class="picturedescription">Sample interview questions</span>
-    </div>
-    <div>
-      <h1 class="analysisandsynthesis">
-        Analysis and Synthesis Process
-      </h1>
-    </div>
-
-    <table>
-      <tr>
-        <th>
-            <a onclick="togglePopup26()">
-              <div>
-                <img src="images/televu/interviewguide/demographicinformation.jpeg" alt="Demographic Sample" class="demographicpicture"/>
-              </div>
-            </a>
-        </th>
-      </tr>
-    </table>
-    <span class="sample">Demographics Sample</span>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup17" id="popup-26">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup26()">&times;</div>
-                <img src="images/televu/interviewguide/demographicinformation.jpeg" alt="Demographic Sample" class="demographicimage"/>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-
-    <table>
-      <tr>
-        <th>
-            <a onclick="togglePopup27()">
-              <div>
-                <img src="images/televu/interviewguide/competitiveanalysisresult.jpeg" alt="Competitive Analysis" class="answerpicture"/>
-              </div>
-            </a>
-        </th>
-      </tr>
-    </table>
-    <span class="sample2">Competitive analysis</span>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup18" id="popup-27">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup27()">&times;</div>
-                <img src="images/televu/interviewguide/competitiveanalysisresult.jpeg" alt="Competitive Analysis" class="answerimage"/>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-
-    <table>
-      <tr>
-        <th>
-            <a onclick="togglePopup28()">
-              <div>
-                <img src="images/televu/interviewguide/Empathy Map.jpg" alt="Affinity Map" class="affinitymappicture"/>
-              </div>
-            </a>
-        </th>
-      </tr>
-    </table>
-    <span class="analysisforaffinity">Analysis - Affinity Map</span>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup19" id="popup-28">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup28()">&times;</div>
-                <img src="images/televu/interviewguide/Empathy Map.jpg" alt="Affinity Map" class="affinitymapimage"/>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-      
-    <h1 class="userchallenges">User Challenges We Knew</h1>
-    <p class="userchallenges-description">
-      From the research part, we have understood that the clinicians were also seeking for a chance to provide the company a bit of feedback on the company's product. If there was anything, they were always overwhelmed with the number of patients which did not leave them a moment to speak up for themselves until we have reached out to them.
-    </p>
-    
-    <h1 class="insights">Insights</h1>
-    <h1 class="lessons">Lessons Learned</h1>
-
-    <!-- This is a note for myself -->
-    <!-- For "Insight" part, copy the format -->
-    <!-- from "Video-Conference Session" in "Assumptions" part-->
-
-    <!-- Once, that is completed, delete the book -->
-
-    <span class="Loginpage">Login Page</span>
-    <table>
-      <tr>
-        <th>
-          <div>
-            <p class="lesson1">
-              The login process needs to be simplified.<br/>
-              The clinicians have pointed out that the login process needs to be
-              simplified.
-            </p>
-            <a onclick="togglePopup10()">
-                <button class="moreinfo">More Info</button>
-            </a>
-            <img
-            src="images/televu/lessons_learned/login_page.jpeg"
-            alt="Login Page"
-            class="loginpageimage"
-            />
-            </div>
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup4" id="popup-10">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup10()">&times;</div>
-                <h1 class="learned1">What did we learn?</h1>
-                <p class="learned1_description">
-                  My team and I have learnt that the login process was not as
-                  confusing to the clinicians who were interested in using the
-                  service. In fact, the client offers tutorial to the customers
-                  before the customers can practically use the service; therefore,
-                  the clinicians understand how to login.<br /><br />
-                  
-                  On the other hand, the client's customers still did not like the
-                  fact that the login was in two-steps. Basically, they felt that it
-                  was not necessary to click the "Sign in with another organization"
-                  button if they were still supposed to write their login id and
-                  password in the following screen. They said that one-step login
-                  process will do.
-                </p>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-
-    <span class="Navigationmenu">Navigation Menu</span>
-    <table>
-      <tr>
-        <th>
-          <div>
-            <p class="lesson2">
-              It was difficult to navigate from one menu to another for the
-                clinicians whilst they tried to engage with the product because
-                the product was not interactive enough.
-            </p>
-          </div>
-            <a onclick="togglePopup11()">
-                <button class="moreinfo2">More Info</button>
-            </a>
-            <img
-            src="images/televu/lessons_learned/navigation.jpeg"
-            alt="Navigation Menu"
-            class="navigationmenuimage"
-            />
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup4" id="popup-11">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup11()">&times;</div>
-                <h1 class="learned2">What did we learn?</h1>
-                <p class="learned2_description">
-                  Fact:<br /><br />
-                  Unlike what we had assumed, the client's customers did not
-                  encounter as much difficulty in navigating through the menus due
-                  to the tutorial. On the other hand, they still admitted that it
-                  takes time to be familiar with the menu names.
-                </p>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-
-    <span class="videoconferencesession">Video-Conference Session</span>
-    <table>
-      <tr>
-        <th>
-          <div>
-            <p class="lesson3">
-              It was difficult to navigate from one menu to another for the
-                clinicians whilst they tried to engage with the product because
-                the product was not interactive enough.
-            </p>
-          </div>
-            <a onclick="togglePopup12()">
-                <button class="moreinfo3">More Info</button>
-            </a>
-            <img
-            src="images/televu/lessons_learned/video_session.jpeg"
-            alt="Video-Conference Session Screen"
-            class="videoconferencesessionimg"
-            />
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup4" id="popup-12">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup12()">&times;</div>
-                <h1 class="learned3">What did we learn?</h1>
-                <p class="learned3_description">
-                  The client's customers have confirmed that the buttons need to be
-                  re-organized. Since they already knew that one layer of menu is
-                  meant to control the Desktop PC and the other layer of menu is for
-                  the mobile screen that's also displayed on the Desktop PC, they
-                  were getting used to the controls. However, they have mentioned
-                  that there needs to be some work done in organization.
-                </p>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-
-    <span class="history">History</span>
-    <table>
-      <tr>
-        <th>
-          <div>
-            <p class="lesson4">
-              We assumed that the essential information for the clinicians were
-              missing in the history page.
-            </p>
-          </div>
-            <a onclick="togglePopup13()">
-                <button class="moreinfo4">More Info</button>
-            </a>
-            <img
-              src="images/televu/lessons_learned/history.jpeg"
-              alt="TeleVU History page"
-              class="historyimage"
-              />
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup4" id="popup-13">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup13()">&times;</div>
-                <h1 class="learned4">What did we learn?</h1>
-                <p class="learned4_description">
-                  What we have learnt:<br /><br />
-                  The clinicians only wanted to be able to modify and custom-save
-                  the recorded videos that are from the previous sessions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-    <h1 class="nextstep">
-      The Next Step
-    </h1>
-    <p class="nextstepexplained">
-      After the discovery, a few user personas were created with the user flow and user journey map to meet the needs and goals of the users.
-    </p>
-
-    <table>
-      <tr>
-        <th>
-            <a onclick="togglePopup14()">
-              <img class="userpersona" src="images/televu/user_persona.jpg" alt="User Persona"/>
-            </a>
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup5" id="popup-14">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup14()">&times;</div>
-                  <img
-                    class="userpersonaimage"
-                    src="images/televu/user_persona.jpg"
-                    alt="User Persona Expanded"
-                  />
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-            <a onclick="togglePopup15()">
-              <img class="journeymap" src="images/televu/user_journey_map.jpg" alt="User Journey Map"/>
-              <div>
-            </a>
-        </th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>
-          <div class="popup6" id="popup-15">
-            <div class="overlay">
-              <div class="content">
-                <div class="close-btn" onclick="togglePopup15()">&times;</div>
-                <img class="journeymapimage" src="images/televu/user_journey_map.jpg" alt="User Journey Map"/>
-                <div>
-              </div>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
-
-      <p class="nextstep_reflections">
-      While creating the user persona and the user journey map, we needed to think about the design.
-      We did not want to simply draw on a white board but thought of design that accommodates the following considerations:
-      </p>
-    </div>
-    <div class="consideration">
-      <ol style="width: 1000px; margin-top: 30px; color: blue;">Point 1 I Convenience based on Frequency</ol>
-      <li style="width: 820px;">
-       We have reached the conclusion that the features that is most used needs to be located in a place of the web page screen where it is well-spotted.
-      </li>
-      <ol style="margin-top: 30px; color: blue;">Point 2 I Ease on Navigation</ol>
-      <li style="width: 840px;">
-        My team and I believed that it is important to remind the users regarding what they can do after they complete a task, especially if the task is a part of a series of actions.
-      </li>
-      <ol style="margin-top: 50px; color: blue;">Point 3 I Interactivity</ol>
-      <li>
-        The product needed to be interactive.
-      </li>
-      <p class="point3explained">
-        For example, if a clinician clicks "call" button, the product should at least notify the clinician that it is loading the video-calling session.
-      </p>
-    </div>
-    <div id="design_id">
-    <p class="designsection">
-      Design
-    </p>
-    </div>
-    <p class="designsubtitle">
-      Explore Style
-    </p>
-    <p class="designdescription">
-      The brand tone for TeleVU Incorporation is agile but but clean as well as neat. Therefore, we have been consistent with the blue colour, which was the primary colour for the design, but we've also mixed with grey, red, and green as supplementary colours.
-    </p>
-    <p class="designsubtitle">
-      Visualize
-    </p>
-    <p class="designdescription">
-      Pages for the web app were sketched based on the user flow to get a better sense of how they would look and after the sketches were finalized.
-    </p>
-    <p class="roughdraftsketches">
-      Here are the rough draft of sketches...
-    </p>
-
-    <span class="rough-history1">Low-fidelity for History Page</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup16()">
-                  <div class="rough-history-card">
-                    <img class="rough-history"
-                    src="images/televu/idea_sketches/history_page_sketch.jpg"
-                    alt="Low-Fidelity for History Page"
-                    />
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup7" id="popup-16">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup16()">&times;</div>
-                    <img class="rough-history-image"
-                    src="images/televu/idea_sketches/history_page_sketch.jpg"
-                    alt="Low-Fidelity for History Page"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-
-        <span class="rough-vid-con1">Low-fidelity for Video-Conference Page</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup17()">
-                  <div class="rough-vid-con-card">
-                    <img class="rough-vid-con"
-                    src="images/televu/idea_sketches/video_call_page_sketch.jpg"
-                    alt="Low-Fidelity for Video-conference Page"
-                    />
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup8" id="popup-17">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup17()">&times;</div>
-                    <img class="rough-vid-con-image"
-                    src="images/televu/idea_sketches/video_call_page_sketch.jpg"
-                    alt="Low-Fidelity for Video-conference Page"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-        <span class="rough-glassvu1">Low-fidelity for GlassVU Page</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup18()">
-                  <div class="rough-glassvu-card">
-                    <img class="rough-glassvu"
-                    src="images/televu/idea_sketches/device_registration_page_sketch.jpg"
-                    alt="Low-Fidelity for GlassVU Page"
-                    />
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup9" id="popup-18">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup18()">&times;</div>
-                    <img class="rough-glassvu-image"
-                    src="images/televu/idea_sketches/device_registration_page_sketch.jpg"
-                    alt="Low-Fidelity for GlassVU Page"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-
-        <table>
-          <tr>
-            <th>
-              <a onclick="togglePopup22()">
-                <div class="designreason1">
-                    <span>Why design in this way?</span>
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup13" id="popup-22">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup22()">&times;</div>
-                    <p>
-                      <li class="designexplained1">
-                        From the original history page,<br/>
-                        we remembered that the records simply accmulates as the videos were recorded per session.<br/>
-                        From this point, we have realized that there needs to be a better approach to view the recorded files instead of everything at once.<br/><br/>
-                        We thought that if we can filter out the history by names, duration or category, it would reduce the time among clinicians to be familiar with the product.
-                      </li>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-
-        <table>
-          <tr>
-            <th>
-              <a onclick="togglePopup23()">
-                <div class="designreason2">
-                    <span>Why design in this way?</span>
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup14" id="popup-23">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup23()">&times;</div>
-                    <p>
-                      <li class="designexplained2">
-                        From the original video conference page,<br/><br/>
-                        The client wanted different position of the menu layer in the video screen. <br/>
-                        In fact, it was not only the client who wanted to see the changes but also the customers who use the client's product during the treatment sessions.<br/><br/>
-                        We thought that it was familiar for everyone to see icons at the bottom of the page to indicate that they are for the PC and another layer at the top of the medium-sized screen to incidate the mobile-use.
-                      </li>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-
-        <table>
-          <tr>
-            <th>
-              <a onclick="togglePopup24()">
-                <div class="designreason3">
-                    <span>Why design in this way?</span>
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup15" id="popup-24">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup24()">&times;</div>
-                    <p>
-                      <li class="designexplained3">
-                        From the original GlassVU Page,<br/><br/>
-                        The client has advised us that creating different color-boxes for each device names could be useful for the customers due to the previous cases that the customers were not able to call the designated person easily.<br/><br/>
-                        In the original version, however, we have noticed that there was no indication regarding whether a device is available for a call or not. Having said that, we have decided to change the display of the status to make it more interactive with the customers.
-                      </li>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-    <p class="styletrack">
-      &laquo; Keep track of styles 	&raquo;
-    </p>
-      <p class="styletrackdescription">
-        All visual and UI elements must be properly documented in a style guide, in order to ensure consistency across all breakpoints.
-      </p>
-      <table>
-        <tr>
-          <th>
-            <div class="design-guide1">
-              <p>Design Guide for Logos</p>
-            </div>
-           <div class="design-guide-card">
-              <img class="design-guide"
-               src="images/televu/Brand Design Guide/logo2.jpg"
-               alt="Design Guide for Logos"
-              />
-          </div>
-         </th>
-         <th>
-           <div class="design-buttons1">
-             <p>Design Guide for Buttons</p>
-           </div>
-           <div class="design-buttons-card">
-             <img class="design-buttons"
-             src="images/televu/Brand Design Guide/buttons.jpg"
-             alt="Design Guide for Buttons"
-             />
-           </div>
-         </th>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <div class="colour1">
-              <p>Design Guide for Colours</p>
-            </div>
-            <div class="colour-card">
-              <img class="colour"
-              src="images/televu/Brand Design Guide/redesign_colours.jpg"
-              alt="Design Guide for Colours"
-              />
-            </div>
-          </th>
-        </tr>
-      </table>
-    <p class="highfidelity">
-     ....to come up with the high-fidelity pages for the product....
-    </p>
-
-    <span class="remotevu1">Redesigned RemoteVU</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup19()">
-                  <div class="high-fi-remotevu-card">
-                    <img class="high-fi-remotevu"
-                    src="images/televu/redesigned_product/redesigned_contactlist_high_fi.jpg"
-                    alt="Redesigned RemoteVU Page"
-                    />
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup10" id="popup-19">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup19()">&times;</div>
-                    <img class="high-fi-remotevu-image"
-                    src="images/televu/redesigned_product/redesigned_contactlist_high_fi.jpg"
-                    alt="Redesigned RemoteVU Page"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-        <span class="high-vid-con1">Redesigned Video-conference</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup20()">
-                  <div class="high-fi-vid-con-card">
-                    <img class="high-fi-vid-con"
-                    src="images/televu/redesigned_product/redesigned_high_fi_video_conference_session.jpg"
-                    alt="Redesigned Video-conference Page"
-                    />
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup11" id="popup-20">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup20()">&times;</div>
-                    <img class="high-fi-vid-con-image"
-                    src="images/televu/redesigned_product/redesigned_high_fi_video_conference_session.jpg"
-                    alt="Redesigned Video-conference Page"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-
-        <span class="high-fi-login1">Redesigned Login</span>
-        <table>
-          <tr>
-            <th>
-                <a onclick="togglePopup21()">
-                  <div class="high-fi-login-card">
-                    <img class="high-fi-login"
-                    src="images/televu/redesigned_product/redesigned_login_high_fi.jpg"
-                    alt="Redesigned Login Page"
-                    />
-                  </div>
-                </a>
-            </th>
-          </tr>
-        </table>
-
-        <table>
-          <tr>
-            <th>
-              <div class="popup12" id="popup-21">
-                <div class="overlay">
-                  <div class="content">
-                    <div class="close-btn" onclick="togglePopup21()">&times;</div>
-                    <img class="high-fi-login-image"
-                    src="images/televu/redesigned_product/redesigned_login_high_fi.jpg"
-                    alt="Redesigned Login Page"
-                    />
-                  </div>
-                </div>
-              </div>
-            </th>
-          </tr>
-        </table>
-
-
-    
-    <h1 class="final">
-      Finalize
-    </h1>
-    <p class="finalpartdescription">
-      ...and to the delivery of the final product.
-    </p>
-    <p class="prototype">
-      Prototype List
-    </p>
-    <img class="prototypelist" src="images/televu/prototypelist.png" alt="Prototype List"/>
-    <img class="imgsize" src="images/televu/redesigned_product/prototype_demo.jpg" alt="Prototype Demo"/>
-    <p class="finalproductteaser">
-      Final Product Teaser Video
-    </p>
-    <div id=video1 class=container>
-      <script src="televu.js"></script>
-      <video class="teaservid" width="1200" height="700" controls>
-        <source src="movie.ogg" type="video/ogg">
-        <source src="videos/final-product-teaser.mp4" type="video/mp4" alt="Final Product Teaser">
-        Your browser does not support the video tag.
-        <button>Play</button>
-      </video>
-    </div>
-    <p class="smartphonefinalproduct">
-      ...including the smartphone version!
-    </p>
-    <table class="mobilefidelity">
-      <tr>
-        <th>
-          <div class="mobile1">
-            <p>High-Fidelity Mobile Version (Portrait)</p>
-          </div>
-          <div class="mobile-card">
-            <img class="mobile"
-            src="images/televu/redesigned_product/redesigned_mobile_high_fi_final_delivery_portrait.jpg"
-            alt="High-Fidelity Mobile Version (Portrait)"
-            />
-          </div>
-        </th>
-        <th>
-          <div class="mobileland1">
-            <p>High-Fidelity Mobile Version (Landscape)</p>
-          </div>
-          <div class="mobileland-card">
-            <img class="mobileland"
-            src="images/televu/redesigned_product/redesigned_mobile_high_fi_final_delivery_landscape.jpg"
-            alt="High-Fidelity Mobile Version (Landscape)"
-            />
-          </div>
-        </th>
-    </table>
-    <h1 class="conClusion">
-        Conclusion
-    </h1>
-    <p class="conClusion_description">
-        My teammates and I believed that all these changes will improve the way that the clinicians use the product and will make them feel pleased to use the features more frequently than the past.
-        However, we needed to know that what we've intended was working as we've intended to be. In order to find out, we have decided to put it to a test.
-    </p>
-    <div style="margin-top: 100px;">
-      <h2 class="usertesting">
-        User Testing Feedback
-      </h2>
-    </div>
-    <p class="usertestingdesc">
-      Here are the comments from the participants who have offered their time to give us more feedback on the new design.
-    </p>
-    <table class="feedbackending">
-      <tr>
-        <th>
-          <div class="settingnav1">
-            <p>Feedback for iSee Web Application <br/>Settings & Navigation</p>
-          </div>
-          <div class="setting-nav-card">
-            <img class="setting-nav"
-            src="images/televu/redesigned_product/redesigned_high_fi_settings.jpg"
-            alt="Feedback for iSee Web Application Settings & Navigation Page"
-            />
-          </div>
-        </th>
-        <th>
-          <div class="historypage1">
-            <p>Feedback for iSee Web Application <br/>History</p>
-          </div>
-          <div class="historypage-card">
-            <img class="historypage"
-            src="images/televu/redesigned_product/redesigned_history_high_fi.jpg"
-            alt="Feedback for iSee Web Application History Page"
-            />
-          </div>
-        </th>
-        <th>
-          <div class="remotevupage1">
-            <p>Feedback for iSee Web Application <br/>RemoteVU</p>
-          </div>
-          <div class="remotevupage-card">
-            <img class="remotevupage"
-            src="images/televu/redesigned_product/redesigned_contactlist_high_fi.jpg"
-            alt="Feedback for iSee Web Application RemoteVU Page"
-            />
-          </div>
-        </th>
-      </tr>
-      <tr>
-        <td>
-          <p class="successratio">
-            Success Ratio: 95%<br/>
-            Average rating: 4.5 out of 5 stars<br/>
-            <br/>
-            Note from the customers:<br/>
-            "the word 'add' is not straight clear."
           </p>
-        </td>
-        <td>
-          <p class="successratio1">
-            Success Ratio: 95%<br/>
-            Average rating: 4.5 out of 5 stars<br/>
-            <br/>
-            Note from the customers:<br/>
-            "everything is so intuitive."
-          </p>
-        </td>
-        <td>
-          <p class="successratio2">
-            Success Ratio: 95%<br/>
-            Average rating: 4.5 out of 5 stars<br/>
-            <br/>
-            Note from the customers:<br/>
-            "everything was very straight-forward."
-          </p>
-        </td>
-      </tr>
-    </table>
-    <div id="reflection_id">
-      <h1 class="reflection">
-        Reflection
-      </h1>
-    </div>
-    <p class="reflect">
-      From the user-testing phase, we were confirmed that things were working as we have intended them to be, and we were very pleased to see the outcome.<br/>
-      <br/>
-      Looking back to this project, I feel thankful that we had a gentle client, but we still had many challenges.<br/><br/>
-
-      One of the challenges was the research.<br/>
-      It was not easy to recruit the participants as the majority were busy clinicians afterall, so we have ended up interviewing some medical students as well as the professionals.<br/><br/>
-
-      Another challenge was the teamwork.<br/>
-      Since we were all working asynchronously, we heavily relied on Figma, Google Spreadsheet, Google Excel, and Miro altogether to keep the updates for all of us.<br/><br/>
-
-      The entire course-work demanded a huge amount of work in such short amount of time. <br/>On the other hand, I was very happy to see that a) the redesign worked out very well, b) my teammates and the client have understood the importance of the research, and c) I have learned some valuable designing tools such as Figma.
-    </p>
-    <h1 class="finalnote">For the Next Step</h1>
-    <p class="finalnote_points">
-      If there is anything that I wish things were better:
-    </p>
-      <li class="finalnote_point_detail">
-        I still feel that it was unfortunate for us to miss the chance to learn further regarding the client company's business structure.
-      </li>
-      <li class="finalnote_point_detail1">
-        I still hope that he allows some tiny changes such as modifting the titles for videos that are saved to the history section after the users are finished with recording the session for the convenience of the users, if the client chooses to work with another team of designers in the next opportunity.
-      </li>
-    <div style="margin-top: -250px;"></div>
-    <button class="home"><a class="link" href="index.html">&#8826; Home</a></button>
-    <button class="centerbtn"><a class="link" href="about.html">About Me</a></button>
-    <button class="contacts"><a class="link" href="contact.html">Contact &#8827;</a></button>
-    <section>
-      <div>
-        <img
-          class="ending"
-          src="images/decoration/fallsky.jpeg"
-          alt="Ending Background"
-          />
-          <p class="name">John Jang</p>
-          <p class="names">UX Designer</p>
-          <p class="name_s">jscolbe9675@gmail.com</p>
-          <footer class="name-s">Copyright &copy; 2022 John Jang All Rights Reserved</footer>
+        </div>
       </div>
-    </section>  
-    </body>
+    </div>
+    <br /><br />
+    <span>Icons & Menus</span><br />
+    <img
+      src="../uxdportfolio/televu/images/research/assumptions/original_video-icons.jpeg"
+      alt="Icons"
+      class="assumption"
+    />
+    <div class="flip-card1">
+      <div class="flip-card-inner1">
+        <div class="flip-card-front1">
+          <p class="about">About Icons & Menus</p>
+        </div>
+        <div class="flip-card-back1">
+          <p class="content">
+            <li class="content">
+              the buttons are not grouped together in terms of similar functions
+            </li>
+            <li class="content">
+              not all buttons are straight-forward and intuitive
+            </li>
+          </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <span>Interactivity</span><br />
+    <img
+      src="../uxdportfolio/televu/images/research/assumptions/original_video_interaction.jpeg"
+      alt="Interactivity"
+      class="assumption"
+    />
+    <div class="flip-card1">
+      <div class="flip-card-inner1">
+        <div class="flip-card-front1">
+          <p class="about">About Interactivity</p>
+        </div>
+        <div class="flip-card-back1">
+          <p class="content">
+            * Icons for both PC and mobile did not seem to follow the industry
+            convention (i.e. not easy to identify or locate on the screen)
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      When we finished exploring the client's product and outlined all our
+      assumptions, we have decided to conduct two different types of research:
+      <li>interviews (both in-person and zoom)</li>
+      <li>
+        competitive platform analysis (by comparing the client's product to
+        other well-established products)
+      </li>
+    </p>
+    <p>
+      We have conducted the interviews and compared the client's product to
+      another well-known products for platform analysis as well as follows:
+    </p>
+    <br /><br />
+    <span>Zoom Interview</span><br />
+    <img
+      src="../uxdportfolio/televu/images/research/analysis/interview_zoom.jpg"
+      alt="Zoom interview"
+      class="assumption"
+    />
+    <p class="after">
+      We have arranged different interview times and invited a few participants
+      to explore their opinions.
+      <br /><br />
+      We have invited about 5 people to join us online
+    </p>
+    <br /><br />
+    <p class="mirotag">Competitive Analysis - Miro</p>
+    <br />
+    <img
+      src="../uxdportfolio/televu/images/research/analysis/competitive_analysis.jpeg"
+      alt="Competitive analysis"
+      class="miro"
+    />
+    <p>
+      We have conducted a comparative analysis on another brand to examine how
+      an established telecommunication platform offers different experience in
+      comparison to the client's product
+    </p>
+    <p>Affinity Mapping</p>
+    <br />
+    <img
+      src="../uxdportfolio/televu/images/research/analysis/affinity_map.jpg"
+      alt="Affinity Mapping"
+      class="map"
+    />
+    <p class="after">
+      Once all the interviews were completed, we have began going through every
+      comment and organized the responses per objective
+    </p>
+    <h1>Insights</h1>
+    <!-- FIRST PICTURE -->
+    <p>
+      Login page
+      <li>Login process needs to be simplified</li>
+    </p>
+    <img
+      src="../uxdportfolio/televu/images/research/insights/original_loigin.jpeg"
+      alt="Original version of Login page"
+      class="picture"
+    />
+    <!-- ======== DETAIL OF POP-UP WINDOW =========== -->
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button info" href="#myModal1">More Info ></button>
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <p class="lesson1">
+            <span class="learned1">Q. What did we learn?</span><br /><br />
+            A. My team and I have learned that the login process was not as
+            confusing to the clinicians who were interested in using the
+            service. In fact, the client offers tutorial to the customers before
+            the customers can practically use the service; therefore, the
+            clinicians understand how to login.<br /><br />
+            On the other hand, the client's customers still did not like the
+            fact that the login was in two-steps. Basically, they felt that it
+            was not necessary to click the "Sign in with another organization"
+            button if they were still supposed to write their login id and
+            password in the following screen. They said that one-step login
+            process will do.
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      Navigation Menu
+      <li>
+        It was difficult to navigate from one menu to another for the clinicians
+        whilst they tried to engage with the product because the product was not
+        interactive enough.
+      </li>
+    </p>
+    <img
+      src="../uxdportfolio/televu/images/research/insights/original_history.jpeg"
+      alt="Navigation Menu"
+      class="picture"
+    />
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button info2" href="#myModal2">More Info ></button>
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <p class="lesson1">
+            <span class="learned1">Q. What did we learn?</span><br /><br />
+            Fact:<br /><br />
+            Unlike what we had assumed, the client's customers did not encounter
+            as much difficulty in navigating through the menus due to the
+            tutorial. On the other hand, they still admitted that it takes time
+            to be familiar with the menu names.
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      Video-Conference Session
+      <li>
+        Many clinicians complained that the controls were not straight-clear.
+      </li>
+    </p>
+    <img
+      src="../uxdportfolio/televu/images/research/insights/original_video_session.jpeg"
+      alt="Original version video session window"
+      class="picture"
+    />
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button info3" href="#myModal3">More Info ></button>
+    <!-- The Modal -->
+    <div id="myModal3" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <p class="lesson1">
+            <span class="learned1">Q. What did we learn?</span><br /><br />
+            The client's customers have confirmed that the buttons need to be
+            re-organized. Since they already knew that one layer of menu is
+            meant to control the Desktop PC and the other layer of menu is for
+            the mobile screen that's also displayed on the Desktop PC, they were
+            getting used to the controls. However, they have mentioned that
+            there needs to be some work done in organization.
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      History
+      <li>
+        We assumed that the essential information for the clinicians were
+        missing in the history page.
+      </li>
+    </p>
+    <img
+      src="../uxdportfolio/televu/images/research/insights/original_history.jpeg"
+      alt="Original version of history page"
+      class="picture"
+    />
+    <!-- Trigger/Open The Modal -->
+    <button class="modal-button info4" href="#myModal4">More Info ></button>
+    <!-- The Modal -->
+    <div id="myModal4" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <p class="lesson1">
+            <span class="learned1">Q. What did we learn?</span><br /><br />
+            The clinicians only wanted to be able to modify and custom-save the
+            recorded videos that are from the previous sessions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="../uxdportfolio/televu/images/research/personas/user_persona.jpg"
+      alt="User Persona"
+      class="persona"
+      id="persona"
+      onclick="toggleImage('persona')"
+    /><br />
+    <span class="personaTag" id="personaTag">User Persona</span>
+    <img
+      src="../uxdportfolio/televu/images/research/personas/user_journey_map.jpg"
+      alt="User Journey Map"
+      class="journeymap"
+      id="journey"
+      onclick="toggleImage2('journey')"
+    /><br />
+    <span class="journeymapTag" id="tag2">User Journey Map</span>
+    <h1>Business</h1>
+    <p>
+      The team wanted to understand the structure of the client’s business. We
+      wanted to crate the proper design that help the client’s business thrive
+      in the market. Having said that, we came up with the value proposition
+      canvas which helps us to understand what values that the client delivers
+      from the service his company provides and how the profit is made.
+    </p>
+    <p>Value Proposition Canvas (a.k.a Lean Canvas)</p>
+    <img
+      src="../uxdportfolio/televu/images/research/business/business_canvas.jpeg"
+      alt="Business Canvas"
+      class="picture"
+    />
+    <!-- ===================== PORTFOLIO MENU ==================== -->
+    <!-- <<<<<<<<<< Introduction card >>>>>>>>> -->
+    <a href="../uxdportfolio/index.html">
+      <img
+        src="../uxdportfolio/televu/images/research/portfolio_menu/introduction.jpg"
+        alt="Introduction"
+        class="picture1"
+      />
+    </a>
+    <div class="box">
+      <a href="../uxdportfolio/televu_introduction.html" class="link">
+        <h4 class="introduction">Introduction</h4>
+        <p class="picture1 word">
+          Here is the overview of this redesign project
+        </p>
+      </a>
+    </div>
+    <!-- <<<<<<<<<<<< Design card >>>>>>>>>>>> -->
+    <a href="../uxdportfolio/televu_design.html">
+      <img
+        src="../uxdportfolio/televu/images/research/portfolio_menu/design.jpeg"
+        alt="Design"
+        class="picture1 move1"
+      />
+    </a>
+    <div class="box box1">
+      <a href="../uxdportfolio/televu_design.html" class="link">
+        <h4>Design</h4>
+        <p class="picture1 word">
+          Please click here to find out how we designed to save more lives in
+          less time
+        </p>
+      </a>
+    </div>
+    <!-- <<<<<<<<<<<< Usability Test card >>>>>>>>>>>> -->
+    <a href="../uxdportfolio/televu_usability.html">
+      <img
+        src="../uxdportfolio/televu/images/research/portfolio_menu/usability_testing.jpeg"
+        alt="usability_testing"
+        class="picture1"
+      />
+    </a>
+    <div class="box">
+      <a href="../uxdportfolio/televu_usability.html" class="link">
+        <h4 class="testing">Usability Testing</h4>
+        <p class="picture1 word">
+          We tried to find out if the design worked out as we have intended.
+        </p>
+      </a>
+    </div>
+    <!-- <<<<<<<<<<<< Reflection card >>>>>>>>>>>> -->
+    <a href="../uxdportfolio/televu_reflection.html">
+      <img
+        src="../uxdportfolio/televu/images/research/portfolio_menu/reflection.jpeg"
+        alt="Reflection"
+        class="picture1 move1"
+      />
+    </a>
+    <div class="box box1">
+      <a href="../uxdportfolio/televu_reflection.html" class="link">
+        <h4>Reflection</h4>
+        <p class="picture1 word">
+          As if I was writing a diary, I have reflected how everything went.
+        </p>
+      </a>
+    </div>
+    <!-- Ending Banner -->
+    <p class="ending">John Jang</p>
+    <p class="endin">UX Designer</p>
+    <p class="end">jscolbe9675@gmail.com</p>
+    <footer class="End">
+      Copyright &copy; 2022 John Jang All Rights Reserved
+    </footer>
+    <img
+      src="../uxdportfolio/televu/images/decoration/fallsky.jpeg"
+      alt="Ending Banner"
+      class="banner"
+    />
+    <script src="../uxdportfolio/televu/js/televu_research.js"></script>
+  </body>
 </html>

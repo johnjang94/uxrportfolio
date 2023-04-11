@@ -1,0 +1,411 @@
+/* Navigation */
+* {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+img.logo {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+/* RESPONSIVE DESIGN FOR LAPTOP COMPUTER */
+
+.topnav {
+  float: right;
+  font-size: 22px;
+
+  padding-top: 40px;
+  padding-right: 170px;
+}
+
+a.active {
+  text-decoration: none;
+  color: blue;
+}
+
+a.btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  color: blueviolet;
+}
+
+.btn:click::after {
+  color: #b87fdb;
+}
+
+/* EDITING WELCOME TITLE FROM THIS POINT */
+/* EDITING WELCOME TITLE FROM THIS POINT */
+/* EDITING WELCOME TITLE FROM THIS POINT */
+/* EDITING WELCOME TITLE FROM THIS POINT */
+/* EDITING WELCOME TITLE FROM THIS POINT */
+
+.codingintroduction {
+  font-size: 50px;
+
+  margin-top: 150px;
+  margin-left: 220px;
+}
+
+.codingintroductiondescription {
+  font-size: 20px;
+
+  margin-left: 260px;
+}
+
+/* INTRODUCING PROJECTS FROM THIS POINT */
+/* INTRODUCING PROJECTS FROM THIS POINT */
+/* INTRODUCING PROJECTS FROM THIS POINT */
+/* INTRODUCING PROJECTS FROM THIS POINT */
+/* INTRODUCING PROJECTS FROM THIS POINT */
+
+/* OCTOBER 2022 PROJECT INFO */
+/* OCTOBER 2022 PROJECT INFO */
+/* OCTOBER 2022 PROJECT INFO */
+
+.october {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.firstday {
+  margin-left: 100px;
+}
+
+.example1 {
+  position: absolute;
+
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.hamburgermenu {
+  width: 960px;
+  height: auto;
+
+  margin-top: 100px;
+  margin-left: 220px;
+
+  border: 1px solid lightblue;
+}
+
+.hamburgermenu:hover {
+  border: 2px solid blue;
+}
+
+.example2 {
+  position: absolute;
+
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.advancedhamburger {
+  width: 960px;
+  height: auto;
+
+  margin-top: 100px;
+  margin-left: 220px;
+
+  border: 1px solid lightblue;
+}
+
+.advancedhamburger:hover {
+  border: 2px solid blue;
+}
+
+/* FROM THIS POINT, I AM TALKING ABOUT MULTIPLE WEB PAGES */
+/* FROM THIS POINT, I AM TALKING ABOUT MULTIPLE WEB PAGES */
+/* FROM THIS POINT, I AM TALKING ABOUT MULTIPLE WEB PAGES */
+/* FROM THIS POINT, I AM TALKING ABOUT MULTIPLE WEB PAGES */
+/* FROM THIS POINT, I AM TALKING ABOUT MULTIPLE WEB PAGES */
+
+.nextchallenge {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.fieldsoccer {
+  width: 1100px;
+  height: 1000px;
+
+  margin-top: 0px;
+  margin-left: 80px;
+}
+
+/* FROM THIS POINT, I AM TALKING ABOUT SMALL PROJECTS */
+/* FROM THIS POINT, I AM TALKING ABOUT SMALL PROJECTS */
+/* FROM THIS POINT, I AM TALKING ABOUT SMALL PROJECTS */
+/* FROM THIS POINT, I AM TALKING ABOUT SMALL PROJECTS */
+/* FROM THIS POINT, I AM TALKING ABOUT SMALL PROJECTS */
+
+.winter {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+/* CHALLENGE TO CREATE MULTIPLE FLIP CARDS */
+/* CHALLENGE TO CREATE MULTIPLE FLIP CARDS */
+/* CHALLENGE TO CREATE MULTIPLE FLIP CARDS */
+
+.otherprojects {
+  margin-left: 100px;
+}
+
+.flipanimation {
+  width: 1100px;
+  height: 500px;
+
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.flipchallengedescription {
+  margin-left: 100px;
+}
+
+.whyflipcard {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+/* CHALLENGE TO CREATE A BOOK */
+/* CHALLENGE TO CREATE A BOOK */
+/* CHALLENGE TO CREATE A BOOK */
+
+.bookchallenge {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.book {
+  width: 1100px;
+  height: 500px;
+
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.challengesucceeded {
+  width: 1100px;
+
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.issue {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.issueconfigured {
+  color: blue;
+
+  margin-left: 100px;
+}
+
+.defer {
+  color: red;
+
+  margin-left: -0px;
+  margin-right: 1px;
+}
+
+.issueexplained {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.book1scripttag {
+  width: 900px;
+  height: auto;
+
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.book2scripttag {
+  width: 900px;
+  height: auto;
+
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.book2 {
+  width: 1100px;
+  height: 500px;
+
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.thestruggle {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.thequestion {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.theadvice {
+  margin-left: 100px;
+}
+
+.nextup {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+/* TALKING ABOUT WHAT'S MY NEXT GOAL FROM THIS POINT */
+/* TALKING ABOUT WHAT'S MY NEXT GOAL FROM THIS POINT */
+/* TALKING ABOUT WHAT'S MY NEXT GOAL FROM THIS POINT */
+
+.nextupdescription {
+  width: 1000px;
+
+  margin-left: 100px;
+}
+
+.cardslide {
+  width: 1100px;
+  height: 500px;
+
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+
+.home {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  font-size: 20px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.centerbtn {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  background-color: #feca6e;
+  font-size: 20px;
+
+  padding: 2px;
+
+  margin-left: 190px;
+}
+
+.centerrightbtn {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  background-color: #feca6e;
+  font-size: 20px;
+
+  padding: 2px;
+
+  margin-left: 190px;
+}
+
+.contacts {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  background-color: #feca6e;
+  font-size: 20px;
+
+  padding: 2px;
+
+  margin-left: 190px;
+}
+
+button:hover {
+  background-color: #f88379;
+
+  margin-top: -20px;
+}
+
+button:click::after {
+  background-color: #ff4040;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+
+.ending {
+  width: 1800px;
+  height: 220px;
+
+  position: absolute;
+
+  margin-left: -100px;
+  margin-top: -50px;
+  opacity: 0.8;
+  z-index: 1000px;
+}
+
+.name {
+  font-weight: 700;
+  position: relative;
+
+  margin-top: 100px;
+  margin-left: 690px;
+}
+
+.names {
+  font-weight: 700;
+  position: relative;
+
+  margin-left: 682px;
+}
+
+.name_s {
+  font-weight: 700;
+  position: relative;
+
+  margin-left: 640px;
+}
+
+.name-s {
+  color: blue;
+  font-weight: 700;
+
+  position: relative;
+
+  margin-left: 540px;
+}

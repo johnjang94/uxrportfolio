@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=serif typeface"
+    />
+    <title>Practice CSS V1.2</title>
+    <style type="text/css">
+      body {
+        font-family: "Times New Roman", serif-typeface;
+      }
+
+      .flywheel {
+        background-image: url("images/flywheel.jpg");
+        background-repeat: none;
+        width: 1425px;
+        position: absolute;
+      }
+
+      h1 {
+        text-align: center;
+        margin-left: 10px;
+        position: relative;
+        font-size: 25px;
+        padding-top: 40px;
+        color: #ffffff;
+      }
+
+      a {
+        float: left;
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        width: 13%;
+        text-align: center;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-left: 130px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+      }
+
+      .active {
+        background-color: #ffffff;
+        opacity: 100%;
+      }
+
+      .container {
+        display: flex-grid;
+      }
+
+      div.first {
+        float: left;
+        background-color: #70936c;
+        position: relative;
+        display: grid;
+        margin-top: 58px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+      }
+
+      img {
+        margin-bottom: 25px;
+        border: 2px solid black;
+      }
+
+      img.first-child {
+        width: 100%;
+        height: 75%;
+      }
+
+      img.second-child {
+        width: 100%;
+        height: 75%;
+        margin-bottom: 40px;
+      }
+
+      img.last-child {
+        width: 100%;
+        height: 75%;
+      }
+
+      div.second {
+        background-color: #ffffff;
+        position: absolute;
+        float: right;
+        margin-top: 120px;
+        margin-left: 310px;
+        margin-right: 4.5px;
+        height: 763px;
+      }
+
+      p {
+        padding-right: 100px;
+      }
+
+      .navigation_box {
+        border: whitesmoke 1px solid;
+        border-radius: 40px;
+
+        width: fit-content;
+        background-color: rgb(193, 235, 250);
+
+        padding: 10px;
+
+        margin-top: 300px;
+        margin-left: 300px;
+      }
+
+      .navigation {
+        width: max-content;
+
+        margin-top: 300px;
+        margin-left: 300px;
+      }
+
+      .portfolio {
+        text-decoration: none;
+        color: black;
+
+        border: whitesmoke 1px solid;
+        border-radius: 40px;
+        width: fit-content;
+        background-color: rgb(193, 235, 250);
+
+        cursor: pointer;
+      }
+
+      .portfolio:hover {
+        color: peru;
+        background-color: white;
+        border: rgb(193, 235, 250) 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/flywheel.jpg" class="flywheel" />
+    <h1>ULTIMATE FRISBEE</h1>
+    <nav>
+      <a href="home.html" class="active">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="history.html">History</a>
+      <a href="http://www.usaultimate.org/index.html">USA Ultimate</a>
+    </nav>
+    <div class="container">
+      <div class="first">
+        <img src="images/Football.jpg" class="first-child" />
+        <img src="images/Soccer.jpg" class="second-child" />
+        <img src="images/Outdoor.jpg" class="last-child" />
+      </div>
+      <div class="second">
+        <h2>Watch your Head</h2>
+        <p>
+          Ultimate Frisbee is a sport that I never played myself, but it's
+          popularity is something hard to ignore in many Midwestern college
+          towns. Students (and people who wish they were still students) spend
+          the few briefs months of good weather, sprinting down fields, hurling
+          frisbees, and yelling "Stack!!".
+        </p>
+        <p>
+          What I find much more entertaining is the large number of people who
+          continue to play when the weather gets windy and the night sky darkens
+          around oh...4:15 pm. The sight of frisbees boomeranging in the wind is
+          topped only bt the knowledge that even whe nyou can't seem, those same
+          plastic discs of death are probably hurtling through the dark night
+          sky at 8 or 9 o'clock in the evening.
+        </p>
+        <p>
+          Ultimate Frisbee requires a great deal of stamina and dexterity. Not
+          surprisingly, the IOC officially recognized Ultimate as a sport in
+          2015. It can go up against other sports for inclusion in Olympic
+          games.
+        </p>
+      </div>
+    </div>
+    <div class="navigation_box">
+      <a
+        href="https://johnjang94.github.io/uxdportfolio/index.html"
+        class="navigation portfolio"
+        >Portfolio Home</a
+      >
+    </div>
+  </body>
+</html>

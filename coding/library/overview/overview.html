@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>John Jang's UX Design Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="overview.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Project Overview</h1>
+    <p>From how the original looked like...</p>
+    <script src="overview.js"></script>
+    <div id="image-container">
+      <img
+        src="../overview/images/original_glassvu.jpg"
+        alt="Original GlassVU picture"
+        class="overview1"
+        id="overview1"
+        onclick="toggleImage()"
+      />
+      <br />
+      <span id="glassvu" class="subtitle">Original GlassVU</span>
+      <p id="message" class="message">
+        &lt;&lt; Original GlassVU &gt;&gt;<br /><br />
+        This is the menu where you can check all your registered devices under
+        your account. For example, you can register your portable laptop, your
+        smartphone or your tablet / iPad on your Netflix account. This is the
+        same concept. You can access your account using your Desktop PC or Mac,
+        your tablet or iPad, and any of your smartphone devices.
+      </p>
+      <div id="close-btn" class="close-btn" onclick="toggleImage()"></div>
+    </div>
+    <img
+      src="../overview/images/original_reportvu.jpg"
+      alt="Original ReportVU picture"
+      class="overview2"
+      id="overview2"
+    />
+    <span id="reportvu" class="subtitle2">Original ReportVU</span>
+  </body>
+</html>

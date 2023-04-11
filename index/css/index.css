@@ -1,0 +1,523 @@
+@import url(../css/animation/animation.css);
+@import url(../css/responsive_design/responsive.css);
+
+/* =========== FOR THE ENTIRE DOCUMENT ========== */
+body {
+  font-size: 15px;
+  font-weight: 400;
+
+  margin-top: 60px;
+  margin-left: 71px;
+  margin-right: 71px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  width: 47.61px;
+  height: 54px;
+
+  position: absolute;
+}
+
+/* ============ GREETINGS =========== */
+.profile {
+  margin-top: 150px;
+  margin-left: 350px;
+
+  width: 276.71px;
+  height: 288px;
+
+  border-radius: 138.35px;
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+
+  margin-top: -240px;
+  margin-left: 350px;
+}
+
+.designer {
+  font-family: "Times New Roman", Times, serif;
+
+  margin-top: 88px;
+  margin-left: -170px;
+}
+
+.opportunities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: -100px;
+  margin-left: 310px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.indexbtn {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+  background-color: rgba(217, 217, 217, 0.13);
+  border: 1px solid grey;
+  border-radius: 15px;
+
+  width: 122px;
+  height: 28px;
+
+  padding-top: 7px;
+}
+
+.indexbtn:hover {
+  background-color: #b9edf9;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutme {
+  margin-top: -20px;
+  margin-left: 340px;
+}
+
+.contact {
+  margin-top: -20px;
+  margin-left: -50px;
+}
+
+.brief {
+  width: 538px;
+
+  margin-top: -20px;
+  margin-left: 371px;
+}
+
+/* ============= ABOUT ME =========== */
+.subtitlebox {
+  border-radius: 40px;
+  background-color: rgba(185, 237, 249, 0.2);
+
+  width: 600px;
+  height: 300px;
+
+  padding-top: 1px;
+
+  margin-top: 12px;
+  margin-left: 349px;
+}
+
+.subtitletag {
+  font-size: 15px;
+  font-weight: 700;
+
+  margin-top: 24px;
+  margin-left: 20px;
+}
+
+.moreinfo {
+  position: absolute;
+
+  width: 100px;
+
+  padding-bottom: 10px;
+
+  margin-top: -35px;
+  margin-left: 470px;
+}
+
+.subtitleword {
+  width: 581px;
+  height: 277px;
+
+  margin-top: 23px;
+  margin-left: 22px;
+}
+
+.picture {
+  position: absolute;
+
+  width: 158px;
+  height: 113px;
+
+  margin-top: -240px;
+  margin-left: 20px;
+}
+
+.travel {
+  margin-left: 215px;
+}
+
+.fact {
+  margin-left: 410px;
+}
+
+.picturetag {
+  position: absolute;
+
+  margin-top: -120px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.traveltag {
+  margin-left: 270px;
+}
+
+.facttag {
+  margin-left: 465px;
+}
+
+.figma {
+  width: auto;
+  margin-left: 60px;
+}
+
+.Figma {
+  margin-left: 95px;
+}
+
+.notion {
+  width: 145px;
+  height: auto;
+
+  padding-top: 30px;
+
+  margin-left: 410px;
+}
+
+/* ============ PUBLISHER TOOLS ============= */
+.HTML {
+  width: auto;
+  margin-left: 40px;
+}
+
+.HTML5 {
+  margin-left: 70px;
+}
+
+.CSS3 {
+  width: auto;
+  margin-left: 250px;
+}
+
+.javascript {
+  width: auto;
+  margin-left: 430px;
+}
+
+.javascript1 {
+  margin-left: 450px;
+}
+
+/* Version control CSS */
+.subtitlebox_extended {
+  height: 500px;
+}
+
+.versioncontrol {
+  margin-top: -80px;
+}
+
+.git {
+  width: auto;
+  margin-left: 50px;
+}
+
+.gitspan {
+  margin-left: 100px;
+}
+
+/* ============ PAST UX PROJECTS ============= */
+.televuproject {
+  text-align: center;
+}
+
+.background {
+  height: 1580px;
+}
+
+/* <<<<<<<<<<<< THE SWIPER FEATURE >>>>>>>>>>>> */
+.swiper {
+  position: relative;
+  overflow: hidden;
+
+  width: 450px;
+  height: 269px;
+
+  margin-top: -260px;
+  margin-left: 80px;
+}
+
+.swiper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 269px;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.swiper img:first-child {
+  opacity: 1;
+}
+
+button {
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: aquamarine;
+  border-radius: 200px;
+}
+
+.prev {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -130px;
+  margin-left: 30px;
+}
+
+.next {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -130px;
+  margin-left: 550px;
+}
+
+ul {
+  font-weight: bold;
+
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.top {
+  margin-top: 10px;
+}
+
+li {
+  font-weight: 300;
+  width: 540px;
+
+  margin-top: 5px;
+}
+
+.bottom {
+  margin-bottom: 20px;
+}
+
+/* <<<<<<<<<< TELEVU CASE STUDY >>>>>>>>>> */
+
+.file {
+  margin-left: 30px;
+}
+
+.link {
+  position: absolute;
+
+  color: blue;
+  cursor: pointer;
+
+  margin-top: -28px;
+  margin-left: 210px;
+}
+
+.link:hover {
+  color: peru;
+}
+
+/* <<<<<<<<<<<<< TUGO CASE STUDY >>>>>>>>>>>> */
+.tugoproject {
+  text-align: center;
+
+  margin-top: 70px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+
+  width: 450px;
+  height: 269px;
+
+  margin-top: -260px;
+  margin-left: 80px;
+}
+
+/* <<<<<<<<<<< TUGO IMAGES SLIDER >>>>>>>>>>> */
+.slider img.tugo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 269px;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.slider img.tugo:first-child {
+  opacity: 1;
+}
+button {
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: aquamarine;
+  border-radius: 200px;
+}
+
+.prev2 {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -150px;
+  margin-left: 30px;
+}
+
+.next2 {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -150px;
+  margin-left: 550px;
+}
+
+.journey {
+  margin-bottom: 100px;
+}
+
+.subtitlebox_extended2 {
+  height: 150px;
+}
+
+/* ============= FRONT-END PROJECTS SERIES 1 ============= */
+.subtitlebox_extended3 {
+  border-radius: 40px;
+  background-color: rgba(185, 237, 249, 0.2);
+
+  width: 600px;
+  height: 1900px;
+
+  padding-top: 1px;
+
+  margin-top: 12px;
+  margin-left: 349px;
+}
+
+.menu {
+  width: 560px;
+  height: auto;
+
+  border-radius: 40px;
+
+  margin-left: 20px;
+  margin-top: -260px;
+}
+
+.webpage {
+  margin-top: 20px;
+}
+
+.subtitleword2 {
+  width: 581px;
+  height: 277px;
+
+  margin-top: 40px;
+  margin-left: 22px;
+}
+
+.menu2 {
+  position: absolute;
+
+  width: 560px;
+  height: auto;
+
+  border-radius: 40px;
+
+  margin-top: -260px;
+  margin-left: 20px;
+}
+
+/* ============= FRONT-END PROJECTS SERIES 2 ============= */
+.subtitlebox_extended4 {
+  border-radius: 40px;
+  background-color: rgba(185, 237, 249, 0.2);
+
+  width: 600px;
+  height: 620px;
+
+  padding-top: 1px;
+
+  margin-top: 12px;
+  margin-left: 349px;
+}
+
+.game {
+  position: absolute;
+  margin-top: -250px;
+}
+
+.game2 {
+  position: absolute;
+  margin-top: -220px;
+}
+
+/* ============= ENDING BANNER ============= */
+.ending {
+  position: absolute;
+  width: 1600px;
+  height: 196px;
+
+  opacity: 70%;
+
+  z-index: -1;
+
+  margin-top: 50px;
+  margin-left: -100px;
+}
+
+.word {
+  position: absolute;
+  font-size: 15px;
+  color: black;
+
+  text-align: center;
+
+  margin-top: 90px;
+  margin-left: 500px;
+}
+
+p {
+  margin: 10px;
+}
+
+.copyright {
+  color: blue;
+}

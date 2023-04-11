@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=serif typeface"
+    />
+    <title>Practice CSS V1.2</title>
+    <style type="text/css">
+      body {
+        font-family: "Times New Roman", serif-typeface;
+      }
+
+      .flywheel {
+        background-image: url("images/flywheel.jpg");
+        background-repeat: none;
+        width: 1425px;
+        position: absolute;
+      }
+
+      h1 {
+        text-align: center;
+        margin-left: 10px;
+        position: relative;
+        font-size: 25px;
+        padding-top: 40px;
+        color: #ffffff;
+      }
+
+      a {
+        float: left;
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        width: 13%;
+        text-align: center;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-left: 130px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+      }
+
+      .active {
+        background-color: #ffffff;
+        opacity: 100%;
+      }
+
+      .container {
+        display: flex-grid;
+      }
+
+      div.first {
+        float: left;
+        background-color: #70936c;
+        position: relative;
+        display: grid;
+        margin-top: 58px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+      }
+
+      img {
+        margin-bottom: 25px;
+        border: 2px solid black;
+      }
+
+      img.first-child {
+        width: 100%;
+        height: 75%;
+      }
+
+      img.second-child {
+        width: 100%;
+        height: 75%;
+        margin-bottom: 40px;
+      }
+
+      img.last-child {
+        width: 100%;
+        height: 75%;
+      }
+
+      div.second {
+        background-color: #ffffff;
+        position: absolute;
+        float: right;
+        margin-top: 120px;
+        margin-left: 310px;
+        margin-right: 4.5px;
+        height: 763px;
+      }
+
+      p {
+        padding-right: 100px;
+      }
+
+      span {
+        text-decoration: underline;
+      }
+
+      .underline {
+        text-decoration: underline;
+        color: purple;
+      }
+
+      .navigation_box {
+        border: whitesmoke 1px solid;
+        border-radius: 40px;
+
+        width: fit-content;
+        background-color: rgb(193, 235, 250);
+
+        padding: 10px;
+
+        margin-top: 300px;
+        margin-left: 300px;
+      }
+
+      .navigation {
+        width: max-content;
+
+        margin-top: 300px;
+        margin-left: 300px;
+      }
+
+      .portfolio {
+        text-decoration: none;
+        color: black;
+
+        border: whitesmoke 1px solid;
+        border-radius: 40px;
+        width: fit-content;
+        background-color: rgb(193, 235, 250);
+
+        cursor: pointer;
+
+        margin-top: 430px;
+        margin-left: 800px;
+      }
+
+      .portfolio:hover {
+        color: peru;
+        background-color: white;
+        border: rgb(193, 235, 250) 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/flywheel.jpg" class="flywheel" />
+    <h1>ULTIMATE FRISBEE</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="history.html" class="active">History</a>
+      <a href="http://www.usaultimate.org/index.html">USA Ultimate</a>
+    </nav>
+    <div class="container">
+      <div class="first">
+        <img src="images/Football.jpg" class="first-child" />
+        <img src="images/Soccer.jpg" class="second-child" />
+        <img src="images/Outdoor.jpg" class="last-child" />
+      </div>
+      <div class="second">
+        <h2>Background</h2>
+        <p>
+          Ultimate Frisbee/Ultimate has been around in some fashion since the
+          1960s. Joel Silver is credited with introducing the game to his high
+          school in 1968 after learning about the game at summer camp. The game
+          spread to more college campuses soon afterward.
+        </p>
+        <p>
+          The Ultimate Players Association was founded in 1979 and began
+          organizing tournaments across the country. In 2010, UPA because the
+          <span>USA Ultimate.</span>
+        </p>
+        <p>
+          Other than progressional tournaments, games of Ultimate are typically
+          played without referees. Instead, players rely on "The Spirit of the
+          Game" to encourage sportsmanship and self-officiating.
+        </p>
+        <h2>Sources</h2>
+        <ul class="underline">
+          <li>Ultimate (sport)</li>
+          <li>World Flying Disc Federation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation_box">
+      <a href="../../uxdportfolio/index.html" class="navigation portfolio"
+        >Portfolio Home</a
+      >
+    </div>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+.menu-box {
+  background-color: #fafafa;
+  width: 387px;
+}
+
+.menu_picture {
+  width: 377.51px;
+  height: 314px;
+
+  border: 5px solid #efefef;
+}
+
+.menu {
+  color: #000000;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  width: 91.88px;
+
+  margin-left: 165px;
+}
+
+.menu_description {
+  font-size: 15px;
+  font-weight: 400;
+
+  width: 316px;
+  height: 36px;
+
+  color: #000000;
+
+  margin-top: 5px;
+  margin-left: 31px;
+}
+
+.description-box {
+  width: 387px;
+  height: 135px;
+
+  border-top: 1px solid #000000;
+}
+
+.research-btn {
+  margin-left: 300px;
+}
+
+.design-btn {
+  margin-top: -463px;
+  margin-left: 754px;
+}
+
+.design {
+  margin-left: 170px;
+}
+
+.usability-btn {
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.usability {
+  width: 500px;
+
+  margin-left: 145px;
+}
+
+.reflection-btn {
+  margin-top: -463px;
+  margin-left: 754px;
+}
+
+.reflection {
+  width: 500px;
+
+  margin-left: 160px;
+}

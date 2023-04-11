@@ -1,0 +1,302 @@
+/* ================ DOCUMENT SETTING ================= */
+* {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  width: 47.61px;
+  height: auto;
+}
+
+h1 {
+  position: relative;
+
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+
+  margin-top: 161px;
+}
+
+h3 {
+  position: absolute;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 25px;
+  margin-left: 141.82px;
+}
+
+h4 {
+  margin-left: 251px;
+}
+
+p,
+li {
+  width: 808px;
+
+  margin-left: 251px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+/* ================ NAVIGATION SETTING ================= */
+.navigation {
+  margin-left: 0px;
+}
+
+.floating-menu {
+  background: #add8e6;
+  border-radius: 15px;
+
+  width: 100px;
+  position: fixed;
+  opacity: 1;
+  z-index: 100;
+
+  padding: 3px;
+
+  margin-top: 100px;
+  margin-left: -142px;
+}
+
+.floating-menu:hover {
+  box-shadow: 0 5px 5px 5px rgba(173, 216, 230, 0.8);
+  opacity: 1;
+  transition-duration: 1s ease-in-and-out;
+
+  margin-left: -50px;
+}
+
+.floating-menu a,
+.floating-menu p {
+  color: black;
+  display: block;
+  font-size: 0.9em;
+  width: 140px;
+
+  padding-block: 3px;
+  margin: 0px;
+}
+
+.floating-menu p {
+  margin-left: 10px;
+}
+
+.linksize {
+  width: fit-content;
+
+  padding-left: 30px;
+}
+
+.linksize:hover {
+  color: white;
+}
+
+/* ================ DESIGN SETTING ================= */
+.consideration {
+  margin-left: 251px;
+}
+
+.point {
+  margin-top: 103px;
+}
+
+.detail {
+  margin-left: 270px;
+}
+
+.points {
+  margin-top: 85px;
+}
+
+.indent {
+  margin-left: 220px;
+}
+
+.indentTag {
+  margin-left: 300px;
+}
+
+.buttonTag {
+  margin-left: 110px;
+}
+
+.colourTag {
+  margin-left: 100px;
+}
+
+/* ================ DRAFTS SETTING ================= */
+.visual {
+  margin-top: 94px;
+}
+
+.process {
+  margin-top: 130px;
+}
+
+.changes {
+  width: 800px;
+  height: auto;
+
+  margin-top: -10px;
+  margin-left: 251px;
+}
+
+.changes1 {
+  width: 800px;
+  height: auto;
+
+  margin-top: 5px;
+  margin-left: 251px;
+}
+
+/* ================ FINALIZATION SETTING ================= */
+/* MOBILE */
+.portrait {
+  margin-top: 60px;
+  margin-left: 251px;
+}
+
+.landscape {
+  position: absolute;
+  width: 520px;
+  height: auto;
+
+  margin-top: 220px;
+  margin-left: -10px;
+}
+
+.portraitTag {
+  margin-left: 320px;
+}
+
+.landscapeTag {
+  position: absolute;
+
+  margin-top: -190px;
+  margin-left: 230px;
+}
+
+/* ================ PORTFOLIO MENU SETTING ================= */
+a {
+  color: black;
+}
+
+/* ================ RESEARCH CARD SETTING ================= */
+.research {
+  width: 377.51px;
+  height: 447px;
+
+  margin-top: 131px;
+  margin-left: 251px;
+}
+
+.research:hover {
+  border: #9addfb 1px solid;
+}
+
+.picture {
+  width: 377.51px;
+  height: 314px;
+
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.box {
+  height: 146px;
+
+  background-color: #fafafa;
+
+  margin-top: -20px;
+}
+
+.box:hover {
+  background-color: #9addfb;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.word {
+  position: absolute;
+
+  width: 316px;
+
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+/* ================ DESIGN CARD SETTING ================= */
+.design {
+  margin-top: -465px;
+  margin-left: 655px;
+}
+
+/* ================ USABILITY CARD SETTING ================= */
+.usability {
+  margin-top: 25px;
+  margin-left: 251px;
+}
+
+.testing {
+  margin-left: 110px;
+}
+
+.reflection {
+  margin-top: -445px;
+  margin-left: 655px;
+}
+
+/* ================ END BANNER SETTING ================= */
+.banner {
+  width: 1470px;
+  height: 200px;
+
+  margin-top: 50px;
+  margin-left: -80px;
+  margin-bottom: -30px;
+}
+
+.ending {
+  position: absolute;
+
+  margin-top: 90px;
+  margin-left: 603px;
+  margin-bottom: 30px;
+}
+
+.endin {
+  position: absolute;
+
+  margin-top: 120px;
+  margin-left: 595px;
+}
+
+.end {
+  position: absolute;
+
+  margin-top: 150px;
+  margin-left: 560px;
+}
+
+.End {
+  position: absolute;
+  color: blue;
+
+  margin-top: 180px;
+  margin-left: 480px;
+}

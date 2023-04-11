@@ -1,0 +1,79 @@
+/* Navbar styles */
+.floating-menu {
+  font-family: sans-serif;
+  background: #add8e6;
+  border-radius: 15px;
+
+  width: 100px;
+  height: fit-content;
+  position: fixed;
+  opacity: 1;
+  z-index: 100;
+
+  padding: 3px;
+
+  margin-top: 100px;
+  margin-left: -160px;
+}
+
+.floating-menu:hover {
+  box-shadow: 0 5px 5px 5px rgba(173, 216, 230, 0.8);
+  opacity: 1;
+  transition-duration: 1s ease-in-out;
+
+  margin-left: -42px;
+}
+
+.floating-menu a,
+.floating-menu h3 {
+  color: black;
+  display: block;
+  font-size: 15px;
+  width: 140px;
+
+  padding-block: 3px;
+  margin: 0px;
+}
+
+.navigation {
+  margin-left: 0px;
+}
+
+.linksize {
+  width: fit-content;
+  padding: 20px;
+}
+
+.linksize:hover {
+  color: darkmagenta;
+}
+
+/* Hamburger menu icon */
+.hamburger-icon {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}

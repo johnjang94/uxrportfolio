@@ -1,0 +1,50 @@
+body {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.overview1 {
+  width: 328px;
+  height: 217px;
+
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  display: none;
+}
+
+.close-btn::after {
+  position: absolute;
+  content: "\00d7";
+
+  cursor: pointer;
+  margin-left: 330px;
+}
+
+.subtitle {
+  margin-left: 100px;
+}
+
+.message {
+  display: none;
+
+  width: 900px;
+}
+
+.overview2 {
+  position: absolute;
+
+  width: 328px;
+  height: 217px;
+
+  margin-top: -250px;
+  margin-left: 400px;
+  margin-bottom: 10px;
+}
+
+.subtitle2 {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 500px;
+}

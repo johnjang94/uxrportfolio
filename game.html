@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Up & Down Game</title>
+    <link href="game/css/game.css" rel="stylesheet" />
+  </head>
+  <body>
+    <img src="about/images/logo/logo-edited.jpg" alt="Logo" class="logo" />
+    <nav class="floating-menu">
+      <p class="navigation">NAVIGATION</p>
+      <a class="linksize" href="index.html">Home</a>
+      <a class="linksize" href="about.html">About</a>
+      <a class="linksize" href="contact.html">Contact</a>
+      <a class="linksize" href="codingjourney.html">Coding</a>
+    </nav>
+    <div>
+      << Rules >>
+      <ul>
+        How to Play:
+        <li>
+          if you guess a number that is lower than the generated number by the
+          computer, the computer will display "Go Up" message on the screen. In
+          that case, you need to guess higher number.
+        </li>
+        <li>
+          if you guess a number that is higher than the generated number by the
+          computer, the compute will display "Go Down" message on the screen. As
+          you may be able to guess, you need to lower down your number.
+        </li>
+        <li>
+          if you guess the number exactly as the computer has, you have won the
+          game.
+        </li>
+      </ul>
+      <ul>
+        <li>Rule 1: you only get 5 chances</li>
+        <li>
+          Rule 2: you can only guess the numbers between 1 and 100. If you guess
+          any number below 1 or above 100, the system will remind you the range
+          of possible numbers
+        </li>
+        <li>Rule 3: you cannot guess a number that you've already guessed</li>
+      </ul>
+    </div>
+    <div class="background">
+      <h1>Guess the number</h1>
+      <div id="result-area">Result?</div>
+      <div id="chance-area">Chances you have</div>
+      <input type="number" id="user-input" />
+      <button id="play-button">Go</button>
+      <button id="reset-button">Reset</button>
+    </div>
+    <script src="game/js/game.js"></script>
+  </body>
+</html>

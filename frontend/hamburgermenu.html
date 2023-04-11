@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: "arial", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 12%;
+        height: 75%;
+        line-height: 75px;
+        background-color: #c4a484;
+      }
+
+      nav .navbar-brad {
+        color: #35637a;
+        font-size: 100px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+
+      nav .nav-list {
+        display: flex;
+      }
+
+      nav .nav-list .nav-item {
+        cursor: pointer;
+        height: 100%;
+        padding: 0 30px;
+        transition: 0.4s;
+        color: black;
+      }
+
+      nav .nav-list .nav-item:hover {
+        background-color: #eacbc4;
+      }
+
+      nav .nav-list .nav-link {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      @media (min-width: 992px) {
+        nav {
+          padding: 0 2rem;
+        }
+
+        nav .nav-list .nav-item {
+          padding: 0 20px;
+          display: none;
+        }
+
+        .container2 {
+          background-color: #c5b19e;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 20px;
+          padding: 10px;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        nav {
+          padding: 0 2rem;
+        }
+
+        nav .nav-list .nav-item {
+          padding: 0 20px;
+          display: none;
+        }
+
+        .container2 {
+          background-color: #c5b19e;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 20px;
+          padding: 10px;
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 767px) {
+        nav {
+          padding: 0 2rem;
+        }
+
+        nav .nav-list .nav-item {
+          padding: 0 20px;
+          display: none;
+        }
+
+        .container2 {
+          background-color: #c5b19e;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 20px;
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 575px) {
+        nav .nav-list {
+          display: grid;
+          position: absolute;
+          width: 100%;
+          top: 75px;
+          left: 0;
+          transform: translateY(-100%);
+          z-index: -1;
+          transition: 0.6s;
+        }
+
+        nav .nav-list .nav-item {
+          text-align: center;
+        }
+
+        nav .navbar-toggler {
+          display: grid !important;
+        }
+
+        .container2 {
+          background-color: #c5b19e;
+          margin-left: 60px;
+          margin-right: 60px;
+          margin-top: 20px;
+          padding: 10px;
+          transition: ease-in-out;
+        }
+      }
+
+      nav .navbar-toggler {
+        display: none;
+        height: min-content;
+        margin: 18px -10px 0 0;
+        cursor: pointer;
+      }
+
+      nav .navbar-toggler .bar {
+        width: 40px;
+        height: 5px;
+        margin-bottom: 10px;
+        background-color: black;
+        border-radius: 10%;
+        transition: 0.4s;
+      }
+
+      input {
+        display: none;
+      }
+
+      input:checked ~ nav .nav-list {
+        transform: translateY(0);
+      }
+
+      input:checked ~ nav .navbar-toggler {
+        color: #ffffff;
+      }
+
+      input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+        background-color: #ffffff;
+      }
+
+      input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+        background-color: #ffffff;
+      }
+
+      input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+        background-color: #ffffff;
+      }
+
+      h2 {
+        text-align: center;
+        size: 15px;
+        position: relative;
+        margin-top: 30px;
+        font-family: sans-serif;
+      }
+
+      .container {
+        display: grid;
+      }
+
+      h3 {
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 15px;
+      }
+
+      .navigation_box {
+        border: whitesmoke 1px solid;
+        border-radius: 40px;
+
+        width: fit-content;
+        background-color: rgb(193, 235, 250);
+
+        padding: 10px;
+      }
+
+      .navigation {
+        margin-top: 300px;
+        margin-left: 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        padding-left: 45px;
+
+        cursor: pointer;
+      }
+
+      a:hover {
+        color: peru;
+      }
+    </style>
+
+    <title>Hamburger Menu to Close Icon</title>
+  </head>
+  <body>
+    <input type="checkbox" id="toggle" />
+
+    <nav>
+      <a class="navbar-brand" href="#"> Food, LLC. </a>
+
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link"> Chicken </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"> Beef </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"> Sushi </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h2>Our Menu</h2>
+
+      <div class="container2">
+        <h3>Chicken</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </div>
+    </div>
+    <p class="navigation navigation_box">
+      Portfolio Navigation<br /><br />
+      <a href="../../uxdportfolio/index.html">Home</a>
+    </p>
+  </body>
+</html>

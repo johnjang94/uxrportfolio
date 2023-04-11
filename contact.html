@@ -1,51 +1,82 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>John Jang the UX Researcher</title>
+    <title>John Jang the UX Designer</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="css_contact/contact_1280px.css" />
-
+    <link href="../uxdportfolio/contact/css/contact.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <title>TeleVU - Case Study Design</title>
   </head>
   <body>
-    <img class="logo" src="images/decoration/logo-edited.jpg" alt="logo" />
-    <div class="topnav">
-      <a class="btn" href="index.html">Home</a>
-      <a class="btn" href="about.html">About Me</a>
-      <a class="btn" href="contact.html">Contact</a>
+    <img
+      src="../uxdportfolio/about/images/logo/logo-edited.jpg"
+      alt="Logo"
+      class="logo"
+    />
+    <nav class="floating-menu">
+      <p class="navigation">NAVIGATION</p>
+      <a class="linksize" href="index.html">Home</a>
+      <a class="linksize" href="about.html">About</a>
+      <a class="linksize" href="contact.html">Contact</a>
+      <a class="linksize" href="codingjourney.html">Coding</a>
+    </nav>
+    <h1>Stay in touch with me!</h1>
+    <p class="contact">How can I help you?</p>
+    <p class="call" onclick="toggleBox()">&#x1f4de;me</p>
+    <div id="box">
+      <p class="info">Here is my contact number:</p>
+      <span class="number">1 (437) 264 - 9989</span><br />
     </div>
-    <h1 class="title">Contact</h1>
-    <p class="intro">
-      Hi, <br /><br />Thank you for dropping-by my portfolio again.<br />
-      I would be happy to hear from you.<br /><br />
-      Please leave a message by clicking the email address below and I will get
-      back to you as soon as possible.
-      <br /><br />
+    <p class="email" onclick="toggleBox2()">&#9993; me</p>
+    <div id="box2">
+      <label for="name" class="required-field">First name:</label><br />
+      <input type="text" class="write" required /><br />
+      <label for="name" class="required-field">Last name:</label><br />
+      <input type="text" class="write" required /><br />
+      <label for="email" class="required-field">Your email address:</label>
+      <input
+        type="email"
+        id="email"
+        class="write"
+        pattern=".+@gmail\.com"
+        size="30"
+        required
+      /><br />
+      <label for="phone number">Your contact information:</label><br />
+      <input type="text" class="write" /><br />
+      <label for="message" class="required-field"
+        >Please leave your message:</label
+      >
+      <textarea class="textarea" required></textarea>
+      <a href="mailto:jscolbe9675@gmail.com">
+        <button class="submit">Submit</button>
+      </a>
+    </div>
 
-      Email:
-      <a href="mailto:jscolbe9675@gmail.com">jscolbe9675@gmail.com</a>
-      <br /><br />
-      Please do not forget to include the following information:<br />
-      - Your Name (full name please) <br />- Your message <br /><br />
-      Thank you 😊
-    </p>
-    <div class="space">
-      <button class="home"><a class="link" href="index.html">&#8826; Home</a></button>
-      <button class="centerbtn"><a class="link" href="about.html">About Me</a></button>
-      <button class="contacts"><a class="link" href="televu_research.html">Project TeleVU &#8827;</a></button>
-    </div>
-    <section>
-      <div class="space2">
-        <img
-          class="ending"
-          src="images/decoration/fallsky.jpeg"
-          alt="Ending Background"
-          />
-          <p class="name">John Jang</p>
-          <p class="names">UX Designer</p>
-          <p class="name_s">jscolbe9675@gmail.com</p>
-          <footer class="name-s">Copyright &copy; 2022 John Jang All Rights Reserved</footer>
-      </div>
-</body>
+    <!-- ================= END BANNER ================== -->
+    <p class="ending">John Jang</p>
+    <p class="endin">UX Designer</p>
+    <p class="letter">jscolbe9675@gmail.com</p>
+    <footer class="End">
+      Copyright &copy; 2022 John Jang All Rights Reserved
+    </footer>
+    <img
+      src="../uxdportfolio/televu/images/decoration/fallsky.jpeg"
+      alt="Ending Banner"
+      class="banner"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../uxdportfolio/contact/js/contact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
 </html>
