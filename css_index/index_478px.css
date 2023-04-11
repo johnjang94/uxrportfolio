@@ -1,0 +1,249 @@
+* {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+img.logo {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+@media only screen and (max-width: 478px) {
+  .topnav {
+    font-size: 22px;
+
+    position: absolute;
+
+    padding-top: 30px;
+
+    margin-left: 1300px;
+    margin-right: -200px;
+  }
+
+  a.active {
+    text-decoration: none;
+    color: #95f9e3;
+  }
+
+  a.btn {
+    text-decoration: none;
+    color: black;
+  }
+
+  .btn:hover {
+    color: aquamarine;
+  }
+
+  .btn:click::after {
+    color: #b87fdb;
+  }
+
+  body {
+    font-family: Roboto, sans-serif;
+  }
+
+  .background {
+    width: 800px;
+    height: 800px;
+    margin-top: -120px;
+    margin-left: 20px;
+  }
+}
+
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+
+.fade-in-image {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#slider {
+  width: auto;
+  height: auto;
+  transform: translateX(-80%);
+  -webkit-transform: translateX(-80%);
+}
+
+.slide-in {
+  animation: slide-in 1.5s forwards;
+  -webkit-animation: slide-in 1.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 1.5s forwards;
+  -webkit-animation: slide-out 1.5s forwards;
+}
+
+@keyframes slide-in {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+
+@-webkit-keyframes slide-out {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+
+#slider2 {
+  width: auto;
+  height: auto;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+
+.slide-in2 {
+  animation: slide-in 1.5s forwards;
+  -webkit-animation: slide-in 1.5s forwards;
+}
+
+.slide-out2 {
+  animation: slide-out 1.5s forwards;
+  -webkit-animation: slide-out 1.5s forwards;
+}
+
+@keyframes slide-in2 {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in2 {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes slide-out2 {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+
+@media only screen and (max-width: 478px) {
+  .introduction {
+    font-size: 30px;
+    width: 500px;
+
+    margin-top: -350px;
+    margin-right: -950px;
+  }
+
+  .subtitle {
+    margin-right: -680px;
+    margin-top: -190px;
+  }
+}
+
+/* SERVICE SECTION ON THE PAGE */
+/* SERVICE SECTION ON THE PAGE */
+/* SERVICE SECTION ON THE PAGE */
+/* SERVICE SECTION ON THE PAGE */
+/* SERVICE SECTION ON THE PAGE */
+
+@media only screen and (max-width: 478px) {
+  .service {
+    font-size: 22px;
+    font-weight: 300;
+    width: 820px;
+
+    margin-left: 320px;
+    margin-top: 90px;
+  }
+}
+
+/* THE PERSONAL WEBSITE ENDING SECTION */
+/* THE PERSONAL WEBSITE ENDING SECTION */
+/* THE PERSONAL WEBSITE ENDING SECTION */
+/* THE PERSONAL WEBSITE ENDING SECTION */
+/* THE PERSONAL WEBSITE ENDING SECTION */
+
+@media only screen and (max-width: 478px) {
+  .name {
+    font-weight: 700;
+    width: 200px;
+
+    position: relative;
+
+    margin-top: 130px;
+    margin-left: 550px;
+    margin-right: -100px;
+  }
+
+  .names {
+    font-weight: 700;
+    width: 200px;
+
+    position: relative;
+    margin-left: 550px;
+  }
+
+  .name-s {
+    font-weight: 700;
+    color: blue;
+    width: 500px;
+
+    position: relative;
+    margin-left: 400px;
+  }
+}

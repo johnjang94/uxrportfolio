@@ -1,0 +1,156 @@
+* {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+img.logo {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 478px) {
+  .topnav {
+    font-size: 100px;
+    width: 700px;
+    float: right;
+
+    margin-top: -180px;
+    margin-right: -980px;
+  }
+
+  a.active {
+    text-decoration: none;
+    color: #95f9e3;
+  }
+
+  a.btn {
+    text-decoration: none;
+    color: black;
+  }
+
+  .btn:hover {
+    color: aquamarine;
+  }
+
+  .btn:click::after {
+    color: #b87fdb;
+  }
+
+  body {
+    font-family: Roboto, sans-serif;
+  }
+}
+
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+
+@media only screen and (max-width: 478px) {
+  .space {
+    margin-top: 580px;
+    margin-bottom: -400px;
+  }
+
+  .title {
+    font-size: 50px;
+
+    margin-top: 50px;
+    margin-left: 600px;
+  }
+
+  .intro {
+    font-size: 22px;
+
+    width: 850px;
+
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-bottom: -250px;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .home {
+    font-size: 50px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #feca6e;
+    width: 230px;
+
+    padding: 2px;
+
+    margin-left: 90px;
+  }
+
+  .centerbtn {
+    font-size: 50px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #feca6e;
+    width: 400px;
+
+    padding: 2px;
+
+    margin-left: 90px;
+  }
+
+  .contacts {
+    font-size: 50px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #feca6e;
+    width: 400px;
+
+    padding: 2px;
+
+    margin-left: 580px;
+  }
+
+  button:hover {
+    background-color: #f88379;
+
+    margin-top: -20px;
+  }
+
+  button:click::after {
+    background-color: #ff4040;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+
+@media only screen and (max-width: 478px) {
+  .space2 {
+    margin-top: 590px;
+  }
+
+  .ending {
+    width: 1500px;
+    height: 220px;
+
+    position: absolute;
+
+    margin-left: -100px;
+    margin-top: -55px;
+    opacity: 0.8;
+    z-index: 1000px;
+  }
+}

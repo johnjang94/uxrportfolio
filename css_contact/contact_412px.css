@@ -1,0 +1,137 @@
+@mdia only screen and (max-width: 412px) {
+  * {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  img.logo {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .topnav {
+    font-size: 100px;
+    width: 700px;
+    float: right;
+
+    margin-top: -180px;
+    margin-right: -1030px;
+  }
+
+  a.active {
+    text-decoration: none;
+    color: #95f9e3;
+  }
+
+  a.btn {
+    text-decoration: none;
+    color: black;
+  }
+
+  .btn:hover {
+    color: aquamarine;
+  }
+
+  .btn:click::after {
+    color: #b87fdb;
+  }
+
+  body {
+    font-family: Roboto, sans-serif;
+  }
+}
+
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+
+@media only screen and (max-width: 478px) {
+  .title {
+    font-size: 200px;
+
+    margin-top: 200px;
+    margin-left: 350px;
+  }
+
+  .intro {
+    font-size: 50px;
+
+    width: 1200px;
+
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: -250px;
+  }
+}
+
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+
+@media only screen and (max-width: 412px) {
+  .home {
+    font-size: 50px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #feca6e;
+    width: 230px;
+
+    padding: 2px;
+
+    margin-left: 90px;
+  }
+
+  .centerbtn {
+    font-size: 50px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #feca6e;
+    width: 400px;
+
+    padding: 2px;
+
+    margin-left: 90px;
+  }
+
+  .contacts {
+    font-size: 50px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #feca6e;
+    width: 400px;
+
+    padding: 2px;
+
+    margin-left: 580px;
+  }
+
+  button:hover {
+    background-color: #f88379;
+
+    margin-top: -20px;
+  }
+
+  button:click::after {
+    background-color: #ff4040;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+}

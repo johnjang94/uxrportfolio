@@ -1,0 +1,390 @@
+/* Navigation */
+* {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+img.logo {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+/* RESPONSIVE DESIGN FOR LAPTOP COMPUTER */
+
+.topnav {
+  float: right;
+  font-size: 22px;
+
+  padding-top: 40px;
+  padding-right: 170px;
+}
+
+a.active {
+  text-decoration: none;
+  color: blue;
+}
+
+a.btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  color: blueviolet;
+}
+
+.btn:click::after {
+  color: #b87fdb;
+}
+
+/* INTRODUCTION OF MY ABOUT PAGE */
+/* INTRODUCTION OF MY ABOUT PAGE */
+/* INTRODUCTION OF MY ABOUT PAGE */
+/* INTRODUCTION OF MY ABOUT PAGE */
+/* INTRODUCTION OF MY ABOUT PAGE */
+
+.hello {
+  font-size: 100px;
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 440px;
+}
+
+.pleasure {
+  font-weight: 300;
+
+  margin-top: -20px;
+  margin-left: 490px;
+}
+
+.introductionnotice {
+  font-size: 20px;
+  font-weight: 300;
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+.mybackgroundtitle {
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+.mybackgrounddetail {
+  font-size: 20px;
+  font-weight: 300;
+  width: 900px;
+
+  margin-left: 210px;
+}
+
+/* THIS SECTION IS ABOUT MY HOMETOWN */
+/* THIS SECTION IS ABOUT MY HOMETOWN */
+/* THIS SECTION IS ABOUT MY HOMETOWN */
+/* THIS SECTION IS ABOUT MY HOMETOWN */
+/* THIS SECTION IS ABOUT MY HOMETOWN */
+
+.ohcanada {
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+.ohcanadadetail {
+  font-size: 20px;
+  font-weight: 300;
+  width: 950px;
+
+  margin-left: 210px;
+}
+
+.frederictonimage {
+  width: 450px;
+  height: 355px;
+
+  margin-left: 200px;
+}
+
+.torontoimage {
+  width: 500px;
+  height: auto;
+}
+
+.fredericton {
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 25px;
+  margin-left: 360px;
+}
+
+.toronto {
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 25px;
+  margin-left: 420px;
+}
+
+/* THIS SECTION IS ABOUT THE PLACES THAT I HAVE BEEN BEFORE */
+/* THIS SECTION IS ABOUT THE PLACES THAT I HAVE BEEN BEFORE */
+/* THIS SECTION IS ABOUT THE PLACES THAT I HAVE BEEN BEFORE */
+/* THIS SECTION IS ABOUT THE PLACES THAT I HAVE BEEN BEFORE */
+/* THIS SECTION IS ABOUT THE PLACES THAT I HAVE BEEN BEFORE */
+
+.places {
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+.englandimage {
+  width: 400px;
+  height: auto;
+
+  margin-left: 200px;
+}
+
+.unitedstatesimage {
+  width: 360px;
+  height: auto;
+
+  margin-left: 20px;
+}
+
+.quebecimage {
+  width: 350px;
+  height: 270px;
+
+  margin-left: 20px;
+}
+
+.england {
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 25px;
+  margin-left: 310px;
+}
+
+.unitedstates {
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
+.quebec {
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+/* INTRODUCTION VIDEO SETTING SECTION FOR ABOUT PAGE */
+/* INTRODUCTION VIDEO SETTING SECTION FOR ABOUT PAGE */
+/* INTRODUCTION VIDEO SETTING SECTION FOR ABOUT PAGE */
+/* INTRODUCTION VIDEO SETTING SECTION FOR ABOUT PAGE */
+/* INTRODUCTION VIDEO SETTING SECTION FOR ABOUT PAGE */
+
+.myhobbies {
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+.myhobbiesdetail {
+  font-size: 20px;
+  font-weight: 300;
+  width: 950px;
+
+  margin-left: 210px;
+}
+
+/* VIDEO PLAY SETTING HERE */
+/* VIDEO PLAY SETTING HERE */
+/* VIDEO PLAY SETTING HERE */
+
+.video {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+.container > .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 7px;
+  box-sizing: content-box;
+  z-index: 10000;
+}
+
+/* FUN FACT ABOUT ME SECTION ON ABOUT PAGE */
+/* FUN FACT ABOUT ME SECTION ON ABOUT PAGE */
+/* FUN FACT ABOUT ME SECTION ON ABOUT PAGE */
+/* FUN FACT ABOUT ME SECTION ON ABOUT PAGE */
+/* FUN FACT ABOUT ME SECTION ON ABOUT PAGE */
+
+.funfact {
+  width: 900px;
+
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+.funfactdetail {
+  font-size: 20px;
+  font-weight: 300;
+  width: 950px;
+
+  margin-left: 210px;
+}
+
+.tvmonitor {
+  width: 600px;
+  height: auto;
+
+  border-radius: 100px;
+
+  margin-top: 20px;
+  margin-left: 430px;
+  margin-bottom: 70px;
+}
+
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+
+.home {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  font-size: 20px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: -850px;
+}
+
+.centerbtn {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  background-color: #feca6e;
+  font-size: 20px;
+
+  padding: 2px;
+
+  margin-left: 350px;
+}
+
+.contacts {
+  box-sizing: border-box;
+  border-radius: 15px;
+
+  background-color: #feca6e;
+  font-size: 20px;
+
+  padding: 2px;
+
+  margin-left: 300px;
+}
+
+button:hover {
+  background-color: #f88379;
+
+  margin-top: -20px;
+}
+
+button:click::after {
+  background-color: #ff4040;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+
+.ending {
+  width: 1800px;
+  height: 220px;
+
+  position: absolute;
+
+  margin-left: -100px;
+  margin-top: -50px;
+  opacity: 0.8;
+  z-index: 1000px;
+}
+
+.name {
+  font-weight: 700;
+  position: relative;
+
+  margin-top: 100px;
+  margin-left: 690px;
+}
+
+.names {
+  font-weight: 700;
+  position: relative;
+
+  margin-left: 682px;
+}
+
+.name_s {
+  font-weight: 700;
+  position: relative;
+
+  margin-left: 640px;
+}
+
+.name-s {
+  color: blue;
+  font-weight: 700;
+
+  position: relative;
+
+  margin-left: 540px;
+}
