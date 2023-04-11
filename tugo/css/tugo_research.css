@@ -62,6 +62,8 @@ span {
 
 /* ================ NAVIGATION SETTING ================= */
 .navigation {
+  width: fit-content;
+
   margin-left: 0px;
 }
 
