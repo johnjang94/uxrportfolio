@@ -544,4 +544,8 @@ p {
 
 .copyright {
   color: blue;
+
+  width: 500px;
+
+  margin-left: -170px;
 }
