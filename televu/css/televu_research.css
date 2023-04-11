@@ -62,6 +62,8 @@ span {
 
 /* ================ NAVIGATION SETTING ================= */
 .navigation {
+  width: fit-content;
+
   margin-left: 0px;
 }
 
@@ -205,25 +207,25 @@ span {
   margin-left: -220px;
 }
 
-/* ================ AFTER RESEARCH ================= */
-.after {
-  width: 340px;
-
-  margin-top: -190px;
-  margin-left: 740px;
-  margin-bottom: 50px;
-}
-
+/* ================ RESEARCH - INTERVIEW & ANALYSIS ================= */
 .mirotag {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .miro {
   width: 800px;
   height: auto;
 
-  margin-top: -10px;
+  margin-top: 10px;
   margin-left: 251px;
+}
+
+.miro_description {
+  margin-top: -20px;
+}
+
+.affinity {
+  margin-top: 50px;
 }
 
 .map {
@@ -234,6 +236,33 @@ span {
   margin-left: 251px;
 }
 
+/* ================ RESEARCH - AFTER ================= */
+.zoom {
+  width: 340px;
+
+  margin-top: -190px;
+  margin-left: 760px;
+  margin-bottom: 50px;
+}
+
+.after {
+  width: 340px;
+
+  margin-top: -250px;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
+
+/* ================ RESEARCH - INITIAL TEST ================= */
+.initial_test {
+  position: relative;
+
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+
+  margin-top: 300px;
+}
 /* ================ INSIGHTS ================= */
 .picture {
   width: 800px;
@@ -393,7 +422,7 @@ button:hover {
 }
 
 .persona:hover {
-  border: #9addfb 2px solid outset;
+  border: #9addfb 2px solid;
 }
 
 .personaTag {
@@ -414,7 +443,7 @@ button:hover {
 }
 
 .journeymap:hover {
-  border: #9addfb 2px solid outset;
+  border: #9addfb 2px solid;
 }
 
 .journeymapTag {
