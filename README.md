@@ -9,13 +9,13 @@ My website is now focused specifically on the research process of the UX project
 
 - This was a team-based and a real-world project
 * Objective(s):
-  > discover the pain points of the customers who use the portal service provided by this telecommunication company<br/>
+  > discover the pain points of the customers who use the portal service provided by this telecommunication company<br/><br/>
   > provide some insights to the design team regarding how the new web architecture and the new UI should accommodate the customers
   
 * Mission Criteria:<br/>
-  > recruit participants who have some level of experience in video-call communication via online<br/>
-  > discover the advantages of using the current portal and find out anything that is inconvenient<br/>
-  > take notes regarding the participants' suggestions<br/>
+  > recruit participants who have some level of experience in video-call communication via online<br/><br/>
+  > discover the advantages of using the current portal and find out anything that is inconvenient<br/><br/>
+  > take notes regarding the participants' suggestions<br/><br/>
   > summarize the findings and present the insights clearly to the design team and the stakeholders
 
 ### Project 2 | Redesign a website for a travel insurance company
@@ -26,8 +26,8 @@ My website is now focused specifically on the research process of the UX project
   > provide some insights to the design team regarding how the new web architecture and the new UI should accommodate the customers<br/>
   
 * Mission Criteria:<br/>
-  > gather information regarding the complaints from the customers (i.e. what are the most commonly received complaints?)<br/>
-  > explore the website to understand the structure and the site map (i.e. how does it logically operate?)<br/>
+  > gather information regarding the complaints from the customers (i.e. what are the most commonly received complaints?)<br/><br/>
+  > explore the website to understand the structure and the site map (i.e. how does it logically operate?)<br/><br/>
   > investigate if the new look and re-organized functionalities provide the intuitiveness and the convenience that the participants were seeking for
 
 ---
